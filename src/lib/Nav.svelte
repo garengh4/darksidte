@@ -2,7 +2,8 @@
 
 	// Initializations:
 	const links = [
-		{ route: '/', name: 'Home' },
+		{ route: '/', name: 'Garen Goh, Software Dev...' },
+    { route: '/work', name: 'Work'},
 		{ route: '/about', name: 'About' }
 	];
 
@@ -31,8 +32,9 @@
 		height: 53px;
 		width: 100%;
 		padding: 0 32px;
-		background: #263238;
+		background: whitesmoke;
 		border-bottom: 2px solid rgba(34,40,49,0.3);
+    font-size: 20px;
 	}
 
 	.links {
