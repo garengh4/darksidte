@@ -23,7 +23,8 @@
 <style>
 
 	main {
-		padding: 3em 3em 2em 10em;
+		padding: 1em;
+    background:#353764;
 	}
 
 </style>
