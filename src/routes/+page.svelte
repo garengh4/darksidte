@@ -1,28 +1,26 @@
 <script>
+  // Imports:
+  import { onMount } from "svelte";
 
-	// Imports:
-	import { onMount } from 'svelte';
+  // Initializations & Exports:
+  // :3
 
-	// Initializations & Exports:
-	// :3
-
-	onMount(() => {
-		// :3
-	});
-	
+  onMount(() => {
+    // :3
+  });
 </script>
 
 <!-- #################################################################################################### -->
 
 <!-- SvelteKit Dynamic Header -->
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Home Page" />
+  <title>Home</title>
+  <meta name="description" content="Home Page" />
 </svelte:head>
 
 <!-- Page Content -->
 <section>
-	<div class="container">
+  <div class="container">
     <!-- ================================================================================================== -->
     <div id="leftcolumn">
       <div class="info">
@@ -42,16 +40,13 @@
       </div>
     </div>
     <!-- ================================================================================================== -->
-    <div id="rightcolumn">
-    </div>
+    <div id="rightcolumn" />
   </div>
 </section>
 
 <!-- #################################################################################################### -->
-
 <style>
-
-.container {
+  .container {
     display: grid;
     grid-template-columns: 2.5fr 2fr;
     grid-template-areas: "leftcolumn rightcolumn";
@@ -106,5 +101,4 @@
     color: whitesmoke;
     font-size: 1.7rem;
   }
-	
 </style>

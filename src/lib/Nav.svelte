@@ -2,9 +2,11 @@
 
 	// Initializations:
 	const links = [
-		{ route: '/', name: 'Garen Goh, Software Dev...' },
-    { route: '/work', name: 'Work'},
-		{ route: '/about', name: 'About' }
+		{ route: '/', name: 'Work' },
+		{ route: '/about', name: 'About' },
+    { route: '/projects', name: 'Projects' },
+		{ route: '/contact', name: 'Contact' }
+
 	];
 
 </script>
