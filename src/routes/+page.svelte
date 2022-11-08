@@ -25,7 +25,7 @@
     <div id="leftcolumn">
       <div class="info">
         <h1>Hi. I'm Garen.</h1>
-        <h2>I'm a Software Developer.</h2>
+        <h2>A Developer.</h2>
         <br />
         <p>
           I dabble in the dark arts of Java Springboot and let it out in a fiery
@@ -62,7 +62,7 @@
 
   #leftcolumn {
     font-weight: 800;
-    font-size: 20px;
+    /* font-size: 20px; */
     grid-area: leftcolumn;
     border-radius: 20px;
     line-height: 2.5rem;
@@ -91,7 +91,7 @@
   }
 
   .info > h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #eaeeb3;
     line-height: 4rem;
