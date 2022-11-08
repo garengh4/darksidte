@@ -56,45 +56,17 @@
     <!-- =========================================================================================================== -->
     <div class="container-2">
       <div class="container-2-box">
-        <h3>A brief History</h3>
+        A BRIEF HISTORY
       </div>
     </div>
     <!-- =========================================================================================================== -->
-    <div class="container-2">
-      <div class="timeline">
-        <div class="swiper-slide">
-          <div class="timestamp">
-            <span class="date">April 2011<span /></span>
-          </div>
-          <div class="status">
-            <span>This is Title</span>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="timestamp">
-            <span class="date">May 2012<span /></span>
-          </div>
-          <div class="status">
-            <span>This is Second Title</span>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="timestamp">
-            <span class="date">June 2013<span /></span>
-          </div>
-          <div class="status">
-            <span>This is Third Title</span>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
 <!-- #################################################################################################### -->
 <style>
+  
+  /* ===================================================================== */
   .background {
     background: url("/images/breeze1.jpg");
     background-position: center;
@@ -141,8 +113,9 @@
     justify-content: center;
     transform: rotate(270deg);
   }
+  .container-2 {
+  }
 
-  .container-2,
   .container-3 {
     display: flex;
     justify-content: space-around;
@@ -152,59 +125,4 @@
     flex-basis: 100%;
   }
   /* ======================================================================= */
-  .swiper-slide {
-    width: 200px;
-    text-align: center;
-    font-size: 18px;
-  }
-  .swiper-slide:nth-child(2n) {
-    width: 40%;
-  }
-  .swiper-slide:nth-child(3n) {
-    width: 20%;
-  }
-
-  .timestamp {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 0px 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: 100;
-  }
-
-  .status {
-    padding: 0px 40px;
-    display: flex;
-    justify-content: center;
-    border-top: 4px solid #3e70ff;
-    position: relative;
-    transition: all 200ms ease-in;
-  }
-
-  .status span {
-    font-weight: 600;
-    padding-top: 20px;
-  }
-  .status span:before {
-    content: "";
-    width: 25px;
-    height: 25px;
-    background-color: #e8eeff;
-    border-radius: 25px;
-    border: 4px solid #3e70ff;
-    position: absolute;
-    top: -15px;
-    left: calc(50% - 12px);
-    transition: all 200ms ease-in;
-  }
-  .timeline {
-  margin: 50px 0;
-  list-style-type: none;
-  display: flex;
-  padding: 0;
-  text-align: center;
-}
 </style>
