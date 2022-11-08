@@ -54,9 +54,60 @@
       </div>
     </div>
     <!-- =========================================================================================================== -->
-    <div class="container-2">
-      <div class="container-2-box">
-        A BRIEF HISTORY
+    A BRIEF HISTORY
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Horizontal Timeline</h1>
+        <div class="swiper-container">
+          <div class="timeline">
+
+            <div class="swiper-slide">
+              <div class="timestamp">
+                <span class="date">Jan 2017</span>
+              </div>
+              <div class="status">
+                <span>Title One</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="timestamp">
+                <span class="date">Feb 2017</span>
+              </div>
+              <div class="status">
+                <span>Title Two</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="timestamp">
+                <span class="date">Mar 2017</span>
+              </div>
+              <div class="status">
+                <span>Title Three</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="timestamp">
+                <span class="date">Apr 2017</span>
+              </div>
+              <div class="status">
+                <span>Title Four</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="timestamp">
+                <span class="date">May 2017</span>
+              </div>
+              <div class="status">
+                <span>Title Five</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
     </div>
     <!-- =========================================================================================================== -->
@@ -65,19 +116,78 @@
 
 <!-- #################################################################################################### -->
 <style>
-  
+  .status {
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    border-top: 4px solid #3e70ff;
+    position: relative;
+    transition: all 200ms ease-in;
+  }
+
+  .status span {
+    font-weight: 600;
+    padding-top: 20px;
+  }
+  .status span:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #e8eeff;
+    border-radius: 25px;
+    border: 4px solid #3e70ff;
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 12px);
+    transition: all 200ms ease-in;
+  }
+  .timestamp {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+  }
+  .swiper-slide {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .timeline {
+    margin: 50px 0;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    text-align: center;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 250px;
+    margin: 50px 0;
+    overflow: hidden;
+    padding: 0 20px 30px 20px;
+  }
+  .swiper-slide:nth-child(2n) {
+    width: 40%;
+  }
+  .swiper-slide:nth-child(3n) {
+    width: 20%;
+  }
+
   /* ===================================================================== */
   .background {
     background: url("/images/breeze1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 120vh;
-    min-height: 120vh;
+    /* max-height: 120vh;
+    min-height: 120vh; */
   }
 
-  .container-1 div,
-  .container-2 div {
+  .container-1 div {
     border: 1px #ccc solid;
     padding: 10px;
     color: aliceblue;
@@ -113,16 +223,14 @@
     justify-content: center;
     transform: rotate(270deg);
   }
-  .container-2 {
-  }
 
   .container-3 {
     display: flex;
     justify-content: space-around;
     padding: 5rem;
   }
-  .container-2-box {
+  /* .container-2-box {
     flex-basis: 100%;
-  }
+  } */
   /* ======================================================================= */
 </style>

@@ -17,15 +17,17 @@
 </svelte:head>
 
 <section>
-  <div id="app" class="container">
+  <!-- <div id="app" class="container"> -->
     <div class="row">
       <div class="col-md-12">
-        <h1>Horizontal Timeline with Swiper</h1>
+        <h1>Horizontal Timeline</h1>
         <div class="swiper-container">
           <div class="swiper-wrapper timeline">
+            <!-- what is swiper-wrapper -->
+
             <div class="swiper-slide">
               <div class="timestamp">
-                <span class="date">April 2017<span /></span>
+                <span class="date">April 2017</span>
               </div>
               <div class="status">
                 <span>This is Title</span>
@@ -33,42 +35,22 @@
             </div>
             <div class="swiper-slide">
               <div class="timestamp">
-                <span class="date">May 2017<span /></span>
+                <span class="date">May 2017</span>
               </div>
               <div class="status">
-                <span>This is Second Title</span>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="timestamp">
-                <span class="date">June 2017<span /></span>
-              </div>
-              <div class="status">
-                <span>This is Third Title</span>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="timestamp">
-                <span class="date">July 2017<span /></span>
-              </div>
-              <div class="status">
-                <span>This is Fourth Title</span>
+                <span>This is second title</span>
               </div>
             </div>
           </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination" />
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </section>
 Hello from +page.svelte in /Projects
 
 <style>
-  #app {
-    padding: 50px 0;
-  }
+
   .timeline {
     margin: 50px 0;
     list-style-type: none;
@@ -110,9 +92,6 @@ Hello from +page.svelte in /Projects
     top: -15px;
     left: calc(50% - 12px);
     transition: all 200ms ease-in;
-  }
-  .swiper-control {
-    text-align: right;
   }
 
   .swiper-container {

@@ -29,7 +29,7 @@
         <br />
         <p>
           I dabble in the dark arts of Java Springboot and let it out in a fiery
-          display in Angular.
+          display of Angular.
         </p>
         <br />
         <p>
