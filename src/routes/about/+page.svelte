@@ -54,58 +54,66 @@
       </div>
     </div>
     <!-- =========================================================================================================== -->
-    A BRIEF HISTORY
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Horizontal Timeline</h1>
-        <div class="swiper-container">
-          <div class="timeline">
-
-            <div class="swiper-slide">
-              <div class="timestamp">
-                <span class="date">Jan 2017</span>
+    <div class="timeline-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Horizontal Timeline</h1>
+          <div class="swiper-container">
+            <div class="timeline">
+              <!-- START -->
+              <div class="swiper-slide">
+                <div class="timestamp">
+                  <span class="date">June 2018</span>
+                </div>
+                <div class="status">
+                  <span>
+                    UBC Irving K. Barber
+                    <br />
+                    Research Assistant
+                  </span>
+                </div>
               </div>
-              <div class="status">
-                <span>Title One</span>
+  
+              <div class="swiper-slide">
+                <div class="timestamp">
+                  <span class="date">Sept 2019</span>
+                </div>
+                <div class="status">
+                  <span>
+                    Canopy Growth Corp.
+                    <br />
+                    Electrical Intern
+                  </span>
+                </div>
               </div>
+  
+              <div class="swiper-slide">
+                <div class="timestamp">
+                  <span class="date">June 2021</span>
+                </div>
+                <div class="status">
+                  <span>
+                    Infosys
+                    <br />
+                    Associate
+                  </span>
+                </div>
+              </div>
+  
+              <div class="swiper-slide">
+                <div class="timestamp">
+                  <span class="date">Mar 2022</span>
+                </div>
+                <div class="status">
+                  <span>
+                    Visa
+                    <br />
+                    Consultant
+                  </span>
+                </div>
+              </div>
+              <!-- END -->
             </div>
-
-            <div class="swiper-slide">
-              <div class="timestamp">
-                <span class="date">Feb 2017</span>
-              </div>
-              <div class="status">
-                <span>Title Two</span>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="timestamp">
-                <span class="date">Mar 2017</span>
-              </div>
-              <div class="status">
-                <span>Title Three</span>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="timestamp">
-                <span class="date">Apr 2017</span>
-              </div>
-              <div class="status">
-                <span>Title Four</span>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="timestamp">
-                <span class="date">May 2017</span>
-              </div>
-              <div class="status">
-                <span>Title Five</span>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
@@ -116,6 +124,11 @@
 
 <!-- #################################################################################################### -->
 <style>
+  .timeline-container {
+    padding: 10px 100px;
+    background-color: darkslategray;
+    border-radius: 10%;
+  }
   .status {
     padding: 0px 40px;
     display: flex;
@@ -223,14 +236,4 @@
     justify-content: center;
     transform: rotate(270deg);
   }
-
-  .container-3 {
-    display: flex;
-    justify-content: space-around;
-    padding: 5rem;
-  }
-  /* .container-2-box {
-    flex-basis: 100%;
-  } */
-  /* ======================================================================= */
 </style>
