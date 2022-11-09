@@ -55,80 +55,122 @@
     </div>
     <!-- =========================================================================================================== -->
     <div class="timeline-container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Horizontal Timeline</h1>
-          <div class="swiper-container">
-            <div class="timeline">
-              <!-- START -->
-              <div class="swiper-slide">
-                <div class="timestamp">
-                  <span class="date">June 2018</span>
-                </div>
-                <div class="status">
-                  <span>
-                    UBC Irving K. Barber
-                    <br />
-                    Research Assistant
-                  </span>
-                </div>
-              </div>
-  
-              <div class="swiper-slide">
-                <div class="timestamp">
-                  <span class="date">Sept 2019</span>
-                </div>
-                <div class="status">
-                  <span>
-                    Canopy Growth Corp.
-                    <br />
-                    Electrical Intern
-                  </span>
-                </div>
-              </div>
-  
-              <div class="swiper-slide">
-                <div class="timestamp">
-                  <span class="date">June 2021</span>
-                </div>
-                <div class="status">
-                  <span>
-                    Infosys
-                    <br />
-                    Associate
-                  </span>
-                </div>
-              </div>
-  
-              <div class="swiper-slide">
-                <div class="timestamp">
-                  <span class="date">Mar 2022</span>
-                </div>
-                <div class="status">
-                  <span>
-                    Visa
-                    <br />
-                    Consultant
-                  </span>
-                </div>
-              </div>
-              <!-- END -->
-            </div>
+      <h1>A Brief History</h1>
+      <div class="timeline">
+        <!-- START -->
+        <div class="swiper-slide">
+          <span>June 2018</span>
+          <div class="status">
+            <span>
+              UBC
+              <br />
+              Research Assistant
+            </span>
           </div>
         </div>
+
+        <div class="swiper-slide">
+          <span>Sept 2019</span>
+          <div class="status">
+            <span>
+              Canopy Growth Corp.
+              <br />
+              Engineering Intern
+            </span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <span>June 2021</span>
+          <div class="status">
+            <span>
+              Infosys
+              <br />
+              Associate
+            </span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <span>Mar 2022</span>
+          <div class="status">
+            <span>
+              Visa
+              <br />
+              Consultant
+            </span>
+          </div>
+        </div>
+        <!-- END -->
       </div>
     </div>
     <!-- =========================================================================================================== -->
+
+    <div class="current">
+      <h1>Currently Reading</h1>
+      <div class="flex-container">
+        <div><img src="/images/book_javaEighth.jpg" alt="JAVA BOOK"></div>
+        <div><img src="/images/book_hacks.jpg" alt="HACKS BOOK"></div>
+        <div><img src="/images/book_EverydayThings.jpg" alt="DESIGN BOOK"></div>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- #################################################################################################### -->
 <style>
+  .flex-container > div > img {
+    height: 250px;
+  }
+  .flex-container > div {
+    background-color: brown;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 50px 20px;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: dodgerblue;
+    justify-content: space-around;
+    padding: 20px 0px 50px 0;
+  }
+
+  .current > h1 {
+    background-color: aquamarine;
+    padding: 50px;
+  }
+  /* ===================================================================== */
+  .swiper-slide > span {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .timeline {
+    margin: 50px 0;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+  }
+
   .timeline-container {
     padding: 10px 100px;
-    background-color: darkslategray;
-    border-radius: 10%;
+    color: #eaeeb3;
   }
+  .timeline-container > h1 {
+    border-bottom: 3px solid #eaeeb3;
+    display: inline;
+  }
+
   .status {
     padding: 0px 40px;
     display: flex;
@@ -140,8 +182,16 @@
 
   .status span {
     font-weight: 600;
-    padding-top: 20px;
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    font-weight: 800;
+    background-color: dimgray;
+    border-radius: 20px;
   }
+
+  /* circle on timeline */
   .status span:before {
     content: "";
     width: 25px;
@@ -154,45 +204,17 @@
     left: calc(50% - 12px);
     transition: all 200ms ease-in;
   }
-  .timestamp {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 0px 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: 100;
-  }
-  .swiper-slide {
-    width: 200px;
-    text-align: center;
-    font-size: 18px;
-  }
-  .timeline {
-    margin: 50px 0;
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    text-align: center;
-  }
-  .swiper-container {
-    width: 100%;
-    height: 250px;
-    margin: 50px 0;
-    overflow: hidden;
-    padding: 0 20px 30px 20px;
-  }
+
   .swiper-slide:nth-child(2n) {
-    width: 40%;
+    width: 25%;
   }
   .swiper-slide:nth-child(3n) {
-    width: 20%;
+    width: 25%;
   }
 
   /* ===================================================================== */
   .background {
-    background: url("/images/breeze1.jpg");
+    background: url("/images/valorant_breeze1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

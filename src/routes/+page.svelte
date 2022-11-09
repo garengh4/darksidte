@@ -52,7 +52,7 @@
     grid-template-areas: "leftcolumn rightcolumn";
     border-radius: 5rem;
     padding: 1rem 10rem;
-    background-image: url("/images/ascent.jpg");
+    background-image: url("/images/valorant_ascent.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
