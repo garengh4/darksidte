@@ -279,7 +279,7 @@
   }
 
   .container-1 div {
-    border: 1px #ccc solid;
+    /* border: 1px #ccc solid; */
     padding: 10px;
     color: aliceblue;
   }

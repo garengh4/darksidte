@@ -48,7 +48,7 @@
 <style>
   .container {
     display: grid;
-    grid-template-columns: 2.5fr 2fr;
+    grid-template-columns: auto auto;
     grid-template-areas: "leftcolumn rightcolumn";
     border-radius: 5rem;
     padding: 1rem 10rem;
@@ -56,17 +56,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 120vh;
-    min-height: 120vh;
+    /* max-height: 120vh;
+    min-height: 120vh; */
   }
 
   #leftcolumn {
-    font-weight: 800;
+    /* font-weight: 800; */
     /* font-size: 20px; */
     grid-area: leftcolumn;
-    border-radius: 20px;
-    line-height: 2.5rem;
-    padding: 15rem 5rem 2rem 5rem;
+    /* border-radius: 20px; */
+    /* line-height: 2.5rem; */
+    /* padding: 15rem 5rem 2rem 5rem; */
   }
 
   #rightcolumn {
@@ -91,14 +91,14 @@
   }
 
   .info > h2 {
-    font-size: 3rem;
+    /* font-size: 3rem; */
     font-family: Arial, Helvetica, sans-serif;
     color: #eaeeb3;
     line-height: 4rem;
     letter-spacing: 2px;
   }
   .info > p {
-    color: whitesmoke;
-    font-size: 1.7rem;
+    /* color: whitesmoke; */
+    /* font-size: 1.7rem; */
   }
 </style>
