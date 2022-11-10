@@ -106,12 +106,28 @@
     </div>
     <!-- =========================================================================================================== -->
 
-    <div class="current">
-      <h1>Currently Reading</h1>
-      <div class="flex-container">
-        <div><img src="/images/book_javaEighth.jpg" alt="JAVA BOOK"></div>
-        <div><img src="/images/book_hacks.jpg" alt="HACKS BOOK"></div>
-        <div><img src="/images/book_EverydayThings.jpg" alt="DESIGN BOOK"></div>
+    <div class="reading-container">
+      <div id="heading"><h1>Currently Reading</h1></div>
+      <div id="bokimg1">
+        <img src="/images/book_javaEighth.jpg" alt="JAVA BOOK" />
+      </div>
+      <div id="bokimg2">
+        <img src="/images/book_hacks.jpg" alt="HACKS BOOK" />
+      </div>
+      <div id="bokimg3">
+        <img src="/images/book_EverydayThings.jpg" alt="DESIGN BOOK" />
+      </div>
+      <div id="bootit1">
+        <h3>A Beginner's Guide</h3>
+        <p>Herbert Schildt</p>
+      </div>
+      <div id="bootit2">
+        <h3>Art of Exploitation</h3>
+        <p>Jon Erickson</p>
+      </div>
+      <div id="bootit3">
+        <h3>Design of Everyday Things</h3>
+        <p>Don Norman</p>
       </div>
     </div>
   </div>
@@ -119,30 +135,70 @@
 
 <!-- #################################################################################################### -->
 <style>
-  .flex-container > div > img {
-    height: 250px;
+    #bootit3 {
+    /* background-color: aliceblue; */
+    color: whitesmoke;
+    padding-top: 15px;
   }
-  .flex-container > div {
-    background-color: brown;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    padding: 50px 20px;
+    #bootit2 {
+    /* background-color: aliceblue; */
+    color: whitesmoke;
+    padding-top: 15px;
   }
-  .flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: dodgerblue;
-    justify-content: space-around;
-    padding: 20px 0px 50px 0;
+  #bootit1 {
+    /* background-color: aliceblue; */
+    color: whitesmoke;
+    margin-left: 50px;
+    padding-top: 15px;
   }
-
-  .current > h1 {
-    background-color: aquamarine;
+  #bokimg3 > img {
+    width: 250px;
+    filter: grayscale(100%);
+  }
+  #bokimg3 {
+    /* background-color: lightcoral; */
+    grid-area: bokimg3;
+  }
+  #bokimg2 > img {
+    width: 250px;
+    filter: grayscale(100%);
+  }
+  #bokimg2 {
+    /* background-color: lime; */
+    grid-area: bokimg2;
+    margin-top: 50px;
+  }
+  #bokimg1 {
+    /* background-color: #ccc; */
+    grid-area: bokimg1;
+    filter: grayscale(100%);
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  #heading > h1 {
+    color: #eaeeb3;
+    font-size: larger;
+    border-bottom: 3px solid #eaeeb3;
+    display: inline-block;
+    font-size: x-large;
+  }
+  #heading {
+    /* background-color: aquamarine; */
+    grid-area: heading;
     padding: 50px;
   }
+  .reading-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "heading heading heading"
+      "bokimg1 bokimg2 bokimg3"
+      "bootit1 bootit2 bootit3";
+    /* background-color: antiquewhite; */
+    padding: 50px;
+  }
+
   /* ===================================================================== */
   .swiper-slide > span {
     width: 100%;
@@ -255,7 +311,7 @@
   .container-1-box > img {
     padding-top: 4rem;
     width: 600px;
-    justify-content: center;
+    /* justify-content: center; */
     transform: rotate(270deg);
   }
 </style>
