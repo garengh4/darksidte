@@ -20,13 +20,14 @@
 
 <!-- Page Content -->
 <section>
-  <div class="container">
-    <!-- ================================================================================================== -->
-    <div id="leftcolumn">
-      <div class="info">
+  <div class="background">
+    <div class="container">
+      <!-- ================================================================================================== -->
+      <div id="heading">
         <h1>Hi. I'm Garen.</h1>
         <h2>A Developer.</h2>
-        <br />
+      </div>
+      <div id="intro">
         <p>
           I dabble in the dark arts of Java Springboot and let it out in a fiery
           display of Angular.
@@ -38,43 +39,56 @@
           properly lmao.
         </p>
       </div>
+      <div id="fullbody">
+        <img src="/images/portrait2.png" alt="Full-body-portrait" />
+      </div>
     </div>
-    <!-- ================================================================================================== -->
-    <div id="rightcolumn" />
   </div>
 </section>
 
 <!-- #################################################################################################### -->
 <style>
+  #heading {
+    grid-area: a;
+    margin-top: 125px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eaeeb3;
+    line-height: 3rem;
+    letter-spacing: 0.3px;
+  }
+  #intro {
+    grid-area: c;
+  }
+  #fullbody > img {
+    position: absolute;
+
+    margin: auto;
+    top: 10rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+  }
+  #fullbody {
+    grid-area: b;
+    filter: blur(0.5px);
+  }
   .container {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-areas: "leftcolumn rightcolumn";
-    border-radius: 5rem;
-    padding: 1rem 10rem;
-    background-image: url("/images/valorant_ascent.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* max-height: 120vh;
-    min-height: 120vh; */
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "a b b"
+      "c b b"
+      "c b b";
+    margin-left: 100px;
+    gap: 1.5rem;
   }
+  /* ===================================================================== */
 
-  #leftcolumn {
-    /* font-weight: 800; */
-    /* font-size: 20px; */
-    grid-area: leftcolumn;
-    /* border-radius: 20px; */
-    /* line-height: 2.5rem; */
-    /* padding: 15rem 5rem 2rem 5rem; */
-  }
-
-  #rightcolumn {
-    grid-area: rightcolumn;
-    border-radius: 20px;
-    padding: 5rem 12rem 5rem 0rem;
-    filter: blur(1px);
-    background-image: url("/images/portrait2.png");
+  .background {
+    background: url("/images/valorant_ascent.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,23 +96,4 @@
     min-height: 120vh;
   }
 
-  .info > h1 {
-    font-size: 4rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #eaeeb3;
-    line-height: 4rem;
-    letter-spacing: 0.5px;
-  }
-
-  .info > h2 {
-    /* font-size: 3rem; */
-    font-family: Arial, Helvetica, sans-serif;
-    color: #eaeeb3;
-    line-height: 4rem;
-    letter-spacing: 2px;
-  }
-  .info > p {
-    /* color: whitesmoke; */
-    /* font-size: 1.7rem; */
-  }
 </style>

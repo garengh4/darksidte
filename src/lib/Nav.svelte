@@ -49,7 +49,7 @@
 	}
 
 	.links a {
-		color: inherit;
+		color: black;
 		text-decoration: none;
 	}
 	
