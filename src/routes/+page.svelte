@@ -1,13 +1,9 @@
 <script>
   // Imports:
-  import { onMount } from "svelte";
 
   // Initializations & Exports:
   // :3
 
-  onMount(() => {
-    // :3
-  });
 </script>
 
 <!-- #################################################################################################### -->
@@ -62,7 +58,6 @@
   }
   #fullbody > img {
     position: absolute;
-
     margin: auto;
     top: 10rem;
     left: 0;
