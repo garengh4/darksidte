@@ -57,18 +57,7 @@
     <div class="heading">
       <h1>A brief history</h1>
     </div>
-    <div class="history-container">
-      <div></div>
-      <div>Item 2</div>
-      <div>Item 3</div>
-      <div>Item 4</div>
-      <div>Item 5</div>
-      <div>Item 6</div>
-      <div>Item 7</div>
-      <div>Item 8</div>
 
-    </div>
-    
     <!-- =========================================================================================================== -->
     <div class="heading">
       <h1>Currently reading</h1>
@@ -95,19 +84,7 @@
 
 <style>
   /* ===========================GRID====================================== */
-  .history-container > div {
-    background-color: darkblue;
-    text-align: center;
 
-  }
-  .history-container{
-    display:grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: 1em;
-    background-color: #2196F3;
-
-  }
 
   /* ===========================FLEX====================================== */
   .currently-reading {
