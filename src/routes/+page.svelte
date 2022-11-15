@@ -47,14 +47,17 @@
   #heading {
     grid-area: a;
     margin-top: 125px;
-    font-size: 1.5rem;
+    margin-left: 25%;
+    font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     color: #eaeeb3;
     line-height: 3rem;
     letter-spacing: 0.3px;
+
   }
   #intro {
     grid-area: c;
+    margin-left: 25%;
   }
   #fullbody > img {
     position: absolute;
@@ -68,6 +71,8 @@
   #fullbody {
     grid-area: b;
     filter: blur(0.5px);
+    margin-top: 40%;
+    margin-right: 20%;
   }
   .container {
     display: grid;
@@ -77,7 +82,7 @@
       "a b b"
       "c b b"
       "c b b";
-    margin-left: 100px;
+    /* margin-left: 100px; */
     gap: 1.5rem;
   }
   /* ===================================================================== */
