@@ -48,12 +48,11 @@
     grid-area: a;
     margin-top: 30%;
     margin-left: 25%;
-    font-size: xx-large;
+    font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
     color: #eaeeb3;
-    line-height: 3rem;
+    line-height: 2em;
     letter-spacing: 0.3px;
-
   }
   #intro {
     grid-area: c;
@@ -63,7 +62,7 @@
   #fullbody > img {
     position: absolute;
     margin: auto;
-    top: 10rem;
+    top: 10em;
     left: 0;
     right: 0;
     bottom: 0;
@@ -84,7 +83,7 @@
       "c b b"
       "c b b";
     /* margin-left: 100px; */
-    gap: 1.5rem;
+    gap: 1.5em;
   }
   /* ===================================================================== */
 

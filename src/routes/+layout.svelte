@@ -24,7 +24,7 @@
 
 	main {
 		padding: 1em;
-    background:#353764;
+    background:#131322;
        /* max-height: 120vh;
     min-height: 120vh; */
 	}

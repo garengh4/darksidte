@@ -123,7 +123,7 @@
   @media (min-width: 768px) {
     .history-block {
       background-color: #222222;
-      padding: 1rem;
+      padding: 1em;
       font-size: medium;
       border-radius: 10px;
       width: 24.5%;
@@ -149,9 +149,9 @@
   .history-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 1em;
     border-radius: 15px;
-    gap: 0.2rem;
+    gap: 0.2em;
     margin:-3% 10%;
   }
 
@@ -174,7 +174,8 @@
   /* ===================================================================== */
   .heading {
     color: #eaeeb3;
-    margin:8% 10% 3% 10%;
+    margin: 10em;
+    /* margin:8% 10% 3% 10%; */
     font-size: x-large;
     text-decoration: underline;
   }
@@ -193,7 +194,7 @@
   #about-title > h1 {
     font-size: xx-large;
     font-weight: bold;
-    line-height: 2.8rem;
+    line-height: 2.8em;
     margin-right: 15%;
   }
   #about-title > h1 > a:hover {
@@ -215,10 +216,10 @@
       "b a a"
       "b c c"
       "b c c";
-    gap: 2rem;
+    gap: 2em;
     margin-left: 12%;
     margin-right: 13%;
-    padding-top: 6rem;
+    padding-top: 6em;
   }
   /* ===================================================================== */
   .background {
