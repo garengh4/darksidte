@@ -40,7 +40,6 @@
           UI/UX, to my current task migrating from monolithic into
           micro-frontend angular.
         </p>
-        <br />
         <p>
           These days my time is spent researching, designing, prototyping and
           coding. I also help colleagues get started with the Java or Angular
@@ -56,6 +55,44 @@
     <!-- =========================================================================================================== -->
     <div class="heading">
       <h1>A brief history</h1>
+    </div>
+    <div class="history-container">
+      <div class="history-block step-1">
+        <div style="display:flex">
+          <div style="width:80%">
+            <h3>UBC</h3>
+            <p>Programmer / Developer</p>
+          </div>
+          <p>19-21</p>
+        </div>
+      </div>
+      <div class="history-block step-2">
+        <div style="display:flex">
+          <div style="width:80%">
+            <h3>Canopy Growth Corp.</h3>
+            <p>Engineering Intern</p>
+          </div>
+          <p>19-20</p>
+        </div>
+      </div>
+      <div class="history-block step-3">
+        <div style="display:flex">
+          <div style="width:80%">
+            <h3>Nike</h3>
+            <p>Developer Consultant</p>
+          </div>
+          <p>21-22</p>
+        </div> 
+      </div>
+      <div class="history-block step-4">
+        <div style="display:flex">
+          <div style="width:85%">
+            <h3>Visa</h3>
+            <p>Designer / Developer Consultant</p>
+          </div>
+          <p>22 ~</p>
+        </div> 
+      </div>
     </div>
 
     <!-- =========================================================================================================== -->
@@ -83,8 +120,40 @@
 </section>
 
 <style>
-  /* ===========================GRID====================================== */
+  @media (min-width: 768px) {
+    .history-block {
+      background-color: #222222;
+      padding: 1rem;
+      font-size: medium;
+      border-radius: 10px;
+      width: 24.5%;
+    }
+    .step-1 {
+      margin-bottom: 0px;
+      margin-top: 150px;
+    }
+    .step-2 {
+      margin-bottom: 50px;
+      margin-top: 100px;
+    }
+    .step-3 {
+      margin-bottom: 100px;
+      margin-top: 50px;
+    }
+    .step-4 {
+      margin-bottom: 150px;
+      margin-top: 0px;
+    }
+  }
 
+  .history-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 15px;
+    gap: 0.2rem;
+    margin:-3% 10%;
+  }
 
   /* ===========================FLEX====================================== */
   .currently-reading {
@@ -105,10 +174,9 @@
   /* ===================================================================== */
   .heading {
     color: #eaeeb3;
-    margin-left: 10%;
-    margin-top: 8%;
-    margin-bottom: 3%;
-    font-size: xx-large;
+    margin:8% 10% 3% 10%;
+    font-size: x-large;
+    text-decoration: underline;
   }
   /* ===========================GRID====================================== */
 
