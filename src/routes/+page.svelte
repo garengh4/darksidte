@@ -46,7 +46,7 @@
 <style>
   #heading {
     grid-area: a;
-    margin-top: 125px;
+    margin-top: 30%;
     margin-left: 25%;
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
@@ -58,6 +58,7 @@
   #intro {
     grid-area: c;
     margin-left: 25%;
+    
   }
   #fullbody > img {
     position: absolute;
