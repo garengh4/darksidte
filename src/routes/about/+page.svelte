@@ -35,15 +35,16 @@
       </div>
       <div id="about-dscpt">
         <p>
-          I've spent the last 2+ years working across different areas of Java
-          framework; frontend-development, pdf controlled-document design, app
-          UI/UX, to my current task migrating from monolithic into
-          micro-frontend angular.
+          I've spent the last 1+ years working across different areas of Java
+          and Angular, developing APIs in the backend to be consumed in a clicky
+          <button>button</button> while following object orient principles in a model-view-controller
+          architecture.
         </p>
+        <br>
         <p>
-          These days my time is spent researching, designing, prototyping and
-          coding. I also help colleagues get started with the Java or Angular
-          framework.
+          These days my time is spent studying, designing and prototyping
+          framework. I also get ideas with my colleagues on what next to build
+          my web-app about.
         </p>
         <br />
         <p>
@@ -82,7 +83,7 @@
             <p>Developer Consultant</p>
           </div>
           <p>21-22</p>
-        </div> 
+        </div>
       </div>
       <div class="history-block step-4">
         <div style="display:flex">
@@ -91,7 +92,7 @@
             <p>Designer / Developer Consultant</p>
           </div>
           <p>22 ~</p>
-        </div> 
+        </div>
       </div>
     </div>
 
@@ -152,16 +153,17 @@
     padding: 1em;
     border-radius: 15px;
     gap: 0.2em;
-    margin:-3% 10%;
+    margin: -10% 15% 15%;
   }
 
   /* ===========================FLEX====================================== */
   .currently-reading {
     display: flex;
     justify-content: space-between;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 10%;
     padding-bottom: 10%;
+    margin-top: -8%;
   }
   .box {
     margin-top: auto;
@@ -174,10 +176,10 @@
   /* ===================================================================== */
   .heading {
     color: #eaeeb3;
-    margin: 10em;
-    /* margin:8% 10% 3% 10%; */
+    /* background: dimgray; */
     font-size: x-large;
     text-decoration: underline;
+    margin: 10% 15%;     /* compensate for timeline */
   }
   /* ===========================GRID====================================== */
 
@@ -190,11 +192,12 @@
   }
   #about-dscpt {
     grid-area: c;
+    line-height: 1.5em;
   }
   #about-title > h1 {
     font-size: xx-large;
     font-weight: bold;
-    line-height: 2.8em;
+    line-height: 1.5em;
     margin-right: 15%;
   }
   #about-title > h1 > a:hover {
@@ -217,9 +220,9 @@
       "b c c"
       "b c c";
     gap: 2em;
-    margin-left: 12%;
-    margin-right: 13%;
-    padding-top: 6em;
+    margin-left: 20%;
+    margin-right: 17%;
+    padding-top: 13em;
   }
   /* ===================================================================== */
   .background {

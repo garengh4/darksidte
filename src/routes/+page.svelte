@@ -3,7 +3,6 @@
 
   // Initializations & Exports:
   // :3
-
 </script>
 
 <!-- #################################################################################################### -->
@@ -21,19 +20,14 @@
       <!-- ================================================================================================== -->
       <div id="heading">
         <h1>Hi. I'm Garen.</h1>
-        <h2>A Developer.</h2>
+        <h2>A Java Developer.</h2>
       </div>
       <div id="intro">
         <p>
-          I dabble in the dark arts of Java Springboot and let it out in a fiery
-          display of Angular.
+          I'm also a frontend designer and studier of new technologies that
+          perform the exact same task but in a different language
         </p>
         <br />
-        <p>
-          In my spare time I study other frameworks and become impressed with
-          human ingenuity. I guess humans truly are beautiful when applied
-          properly lmao.
-        </p>
       </div>
       <div id="fullbody">
         <img src="/images/portrait2.png" alt="Full-body-portrait" />
@@ -48,7 +42,7 @@
     grid-area: a;
     margin-top: 30%;
     margin-left: 25%;
-    font-size: 60px;
+    font-size: 42px;
     font-family: Arial, Helvetica, sans-serif;
     color: #eaeeb3;
     line-height: 2em;
@@ -57,7 +51,8 @@
   #intro {
     grid-area: c;
     margin-left: 25%;
-    
+    letter-spacing: 0.5px;
+
   }
   #fullbody > img {
     position: absolute;
@@ -95,5 +90,4 @@
     max-height: 120vh;
     min-height: 120vh;
   }
-
 </style>

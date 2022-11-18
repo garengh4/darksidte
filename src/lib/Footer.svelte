@@ -11,10 +11,10 @@
 <!-- #################################################################################################### -->
 
 <footer>
-  <div class="container">
+  <!-- <div class="container"> -->
     <div class="real-footer">
-      <h1>I occasionally take on</h1>
-      <h1> freelance opportunites.</h1>
+      <h1>I occasionally take on freelance</h1>
+      <h1>opportunites.</h1>
       <p>Have an exciting project and you need some help?</p>
       <p>Send me a message and <a href="https://www.linkedin.com/in/{config.linkedin}">lets chat</a>.</p>
 
@@ -26,7 +26,7 @@
         </span>
       
       </div> -->
-    </div>
+    <!-- </div> -->
 
   </div>
 
@@ -45,14 +45,9 @@
 <!-- #################################################################################################### -->
 
 <style>
-  .container {
-    background:#131322;
-    padding: 0.1em 1em;
-
-  }
   .real-footer {
     background: #111111;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     padding: 10em 0;
     text-align: center;
   }
@@ -60,16 +55,12 @@
     font-size: 58px;
     line-height: 1.2em;
     color: #eaeeb3;
-    word-spacing: 15px;
   }
   .real-footer > p > a { 
     color: #eaeeb3;
   }
   .real-footer > p {
-    margin-top:1em;
-    /* padding: 15px; */
-    /* margin-top: 5em; */
-    /* line-height: 0.2em; */
+    margin-top:1em;     /* some sort of bug here */
   }
 
 /* ========================================================= */
