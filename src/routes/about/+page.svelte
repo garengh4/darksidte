@@ -119,31 +119,8 @@
 </section>
 
 <style>
-  @media (min-width: 768px) {
-    .history-block {
-      background-color: #222222;
-      padding: 1.5em;
-      font-size: medium;
-      border-radius: 10px;
-      width: 21em;/* add @media */
-    }
-    .step-1 {
-      margin-bottom: 0em;
-      margin-top: 12em;
-    }
-    .step-2 {
-      margin-bottom: 4em;
-      margin-top: 8em;
-    }
-    .step-3 {
-      margin-bottom: 8em;
-      margin-top: 4em;
-    }
-    .step-4 {
-      margin-bottom: 12em;
-      margin-top: 0em;
-    }
-  }
+  /* if on big screen */
+  /* ================================================================= */
 
   .history-container {
     /* background-color: red; */
@@ -220,8 +197,8 @@
       "b a a"
       "b c c"
       "b c c";
-    gap: 2em;
-    margin: 10em; 
+    gap: 3.5em;
+    padding: 14em;
   }
   /* ===================================================================== */
   .background {
@@ -232,8 +209,36 @@
     /* max-height: 120vh;
     min-height: 120vh; */
   }
+  @media (min-width: 768px) {
+    .history-block {
+      background-color: #222222;
+      padding: 1.5em;
+      font-size: medium;
+      border-radius: 10px;
+      width: 25em;/* add @media */
+    }
+    .step-1 {
+      margin-bottom: 0em;
+      margin-top: 12em;
+    }
+    .step-2 {
+      margin-bottom: 4em;
+      margin-top: 8em;
+    }
+    .step-3 {
+      margin-bottom: 8em;
+      margin-top: 4em;
+    }
+    .step-4 {
+      margin-bottom: 12em;
+      margin-top: 0em;
+    }
+  }
 
-  @media screen and (min-width: 980px) {
+    /* if on small screen */
+  /* ================================================================= */
+
+  @media screen and (max-width: 95px) {
     .about-container{
       padding: 2em 8em 4em 6em; 
     }
@@ -242,6 +247,7 @@
     }
     .history-block{
       width: 25em;/* add @media */
+      background-color: red;
     }
     .currently-reading{
       margin: -5em 15em;/* add @media */
