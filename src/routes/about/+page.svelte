@@ -119,7 +119,7 @@
 </section>
 
 <style>
-  /* if on big screen */
+  /* if on small screen */
   /* ================================================================= */
 
   .history-container {
@@ -130,15 +130,14 @@
     gap: 0.2em;
     margin-top: -10em;
     justify-content: center;
-    padding-top: 5em;
-    padding-bottom: 20em;
+    padding: 0em 2em 10em 1em;/* add @media */
   }
 
   /* ===========================FLEX====================================== */
   .currently-reading {
     display: flex;
     justify-content: space-between;
-    margin: -7em 8em;/* add @media */
+    margin: -7em 6em;                                                       /* add @media */
     padding-bottom: 25em;
   }
   .box > h3 {
@@ -157,7 +156,7 @@
     color: #eaeeb3;
     font-size: x-large;
     text-decoration: underline;
-    margin: 8em 9em; /* add @media */
+    margin: 5em 9em 10em;                                                  /* add @media */
   }
   /* ===========================GRID====================================== */
 
@@ -198,7 +197,7 @@
       "b c c"
       "b c c";
     gap: 3.5em;
-    padding: 14em;
+    padding: 8em;
   }
   /* ===================================================================== */
   .background {
@@ -209,13 +208,13 @@
     /* max-height: 120vh;
     min-height: 120vh; */
   }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .history-block {
       background-color: #222222;
-      padding: 1.5em;
+      padding: 1.8em;
       font-size: medium;
       border-radius: 10px;
-      width: 25em;/* add @media */
+      width: 22em;                                                            /* add @media */
     }
     .step-1 {
       margin-bottom: 0em;
@@ -235,22 +234,21 @@
     }
   }
 
-    /* if on small screen */
+    /* if on big screen */
   /* ================================================================= */
 
-  @media screen and (max-width: 95px) {
+  @media screen and (min-width: 1900px) {
     .about-container{
-      padding: 2em 8em 4em 6em; 
+      padding: 10em 15em 5em 15em; 
     }
     .heading {
-      margin: 8em 13em; /* add @media */
+      margin: 10em 10em 15em 10em; 
     }
     .history-block{
       width: 25em;/* add @media */
-      background-color: red;
     }
     .currently-reading{
-      margin: -5em 15em;/* add @media */
+      margin: -15em 12em;/* add @media */
     }
   }
 </style>
