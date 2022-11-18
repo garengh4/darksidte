@@ -35,21 +35,19 @@
       </div>
       <div id="about-dscpt">
         <p>
-          I've spent the last 1+ years working across different areas of Java
-          and Angular, developing APIs in the backend to be consumed in a clicky
-          <button>button</button> while following object orient principles in a model-view-controller
-          architecture.
-        </p>
-        <br>
-        <p>
-          These days my time is spent studying, designing and prototyping
-          framework. I also get ideas with my colleagues on what next to build
-          my web-app about.
+          Since graduating from UBC, I've worked across different concepts and
+          architectures of Java in industry. I remember my first jira being
+          something like <button>this</button> or <button>that</button>.
         </p>
         <br />
         <p>
-          Out of office you'll find me dreaming of rock-climbing, playing
-          classical guitar, and teaching cat tricks.
+          In my free time I study, design and prototype new open-source
+          framework and be impressed with humanity.
+        </p>
+        <br />
+        <p>
+          When people ask me what I do for fun and I usually say rock-climbing, playing
+          the guitar, and teaching my cat tricks.
         </p>
       </div>
     </div>
@@ -124,46 +122,50 @@
   @media (min-width: 768px) {
     .history-block {
       background-color: #222222;
-      padding: 1em;
+      padding: 1.5em;
       font-size: medium;
       border-radius: 10px;
-      width: 24.5%;
+      width: 21em;/* add @media */
     }
     .step-1 {
-      margin-bottom: 0px;
-      margin-top: 150px;
+      margin-bottom: 0em;
+      margin-top: 12em;
     }
     .step-2 {
-      margin-bottom: 50px;
-      margin-top: 100px;
+      margin-bottom: 4em;
+      margin-top: 8em;
     }
     .step-3 {
-      margin-bottom: 100px;
-      margin-top: 50px;
+      margin-bottom: 8em;
+      margin-top: 4em;
     }
     .step-4 {
-      margin-bottom: 150px;
-      margin-top: 0px;
+      margin-bottom: 12em;
+      margin-top: 0em;
     }
   }
 
   .history-container {
+    /* background-color: red; */
     display: flex;
     flex-wrap: wrap;
-    padding: 1em;
     border-radius: 15px;
     gap: 0.2em;
-    margin: -10% 15% 15%;
+    margin-top: -10em;
+    justify-content: center;
+    padding-top: 5em;
+    padding-bottom: 20em;
   }
 
   /* ===========================FLEX====================================== */
   .currently-reading {
     display: flex;
     justify-content: space-between;
-    margin-left: 15%;
-    margin-right: 10%;
-    padding-bottom: 10%;
-    margin-top: -8%;
+    margin: -7em 8em;/* add @media */
+    padding-bottom: 25em;
+  }
+  .box > h3 {
+    margin-top: 1em;
   }
   .box {
     margin-top: auto;
@@ -176,16 +178,16 @@
   /* ===================================================================== */
   .heading {
     color: #eaeeb3;
-    /* background: dimgray; */
     font-size: x-large;
     text-decoration: underline;
-    margin: 10% 15%;     /* compensate for timeline */
+    margin: 8em 9em; /* add @media */
   }
   /* ===========================GRID====================================== */
 
+
   #about-portrait > img {
-    width: 525px;
-    border-radius: 10%;
+    width: 450px;
+    border-radius: 20px;
   }
   #about-portrait {
     grid-area: b;
@@ -198,7 +200,6 @@
     font-size: xx-large;
     font-weight: bold;
     line-height: 1.5em;
-    margin-right: 15%;
   }
   #about-title > h1 > a:hover {
     text-underline-offset: 0.2em;
@@ -220,9 +221,7 @@
       "b c c"
       "b c c";
     gap: 2em;
-    margin-left: 20%;
-    margin-right: 17%;
-    padding-top: 13em;
+    margin: 10em; 
   }
   /* ===================================================================== */
   .background {
@@ -232,5 +231,20 @@
     background-size: cover;
     /* max-height: 120vh;
     min-height: 120vh; */
+  }
+
+  @media screen and (min-width: 980px) {
+    .about-container{
+      padding: 2em 8em 4em 6em; 
+    }
+    .heading {
+      margin: 8em 13em; /* add @media */
+    }
+    .history-block{
+      width: 25em;/* add @media */
+    }
+    .currently-reading{
+      margin: -5em 15em;/* add @media */
+    }
   }
 </style>

@@ -48,7 +48,8 @@
   .real-footer {
     background: #111111;
     /* border-radius: 20px; */
-    padding: 10em 0;
+    padding-top: 10em;
+    padding-bottom: 15em;
     text-align: center;
   }
   .real-footer > h1 {
