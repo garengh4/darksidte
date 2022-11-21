@@ -1,8 +1,8 @@
 <script>
 
 	// Imports:
-	import Nav from '$lib/Nav.svelte';
-	import Footer from '$lib/Footer.svelte';
+	import Nav from '$lib/nav-component.svelte';
+	import Footer from '$lib/footer-component.svelte';
 	import '../app.css';
 	
 </script>
