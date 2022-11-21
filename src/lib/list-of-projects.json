@@ -1,17 +1,33 @@
 [
   {
-    "title": "WeaverFi",
-    "subtitle": "The open‑source, multi‑chain DeFi portfolio tracker",
-    "description": "WeaverFi is the solution to scalability issues of existing portfolio trackers. An ever‑expanding repository of tools for the everyday DeFi user and a robust framework for anyone to integrate their own dapp.",
-    "image": "https://ncookie.ca/projects/weaverfi.png",
-    "link": "https://weaver.fi/",
-    "repo": "https://github.com/WeaverFi"
+    "title": "Personal swagger-template",
+    "subtitle": "A framework being transitioned to springfox, from Spring to OpenAI.",
+    "description": "A Design and documentation platform for teams and individuals working with the OpenAI specification.",
+    "image": "/logos/swagger.svg",
+    "link": "https://swagger.io/",
+    "repo": "https://github.com/garengh4/swagger-product"
   },
   {
-    "title": "World Hash",
-    "subtitle": "Decentralized Minecraft world sharing",
-    "description": "This prize-winning ETHOnline2022 hackathon project was super fun to build, and it allows anyone to share their Minecraft worlds through ENS and IPFS.",
-    "image": "https://ncookie.ca/projects/worldHash.png",
-    "repo": "https://github.com/trmid/world-hash"
+    "title": "Personal angular-template",
+    "subtitle": "A long-established framework with incredible libraries and pluggin options.",
+    "description": "Migration between structured monolithic and structured micro-frontend architecture allows for incredible scalability.",
+    "image": "/logos/angular.svg",
+    "link": "https://angular.io/",
+    "repo": "https://github.com/garengh4/weddingapp-java-2"
+  },
+  {
+    "title": "Personal springboot-template",
+    "subtitle": "Reputable framework with much documentation.",
+    "description": "Annotation framework built around the famous OO principles using the MVC architecture to allow for fast, secure.",
+    "image": "/logos/springio.svg",
+    "link": "https://spring.io/",
+    "repo": "https://github.com/garengh4/weddingapp-java-2"
+  },
+  {
+    "title": "Personal sveltekit-template",
+    "subtitle": "This very app itself...",
+    "description": "This portfolio app was made with ncookie's handy Sveltekit pwa template. I'm glad I like it.",
+    "image": "/logos/noface2.svg",
+    "repo": "https://github.com/garengh4/darksidte"
   }
 ]

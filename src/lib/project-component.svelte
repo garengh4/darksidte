@@ -33,14 +33,15 @@
     width: min(55em, 100%);
     padding: 1em 2em;
     border: 3px solid whitesmoke;
+    font-weight: normal;
   }
   img {
-    height: 8em;
-    width: 8em;
-    filter:drop-shadow(0 0 .5em whitesmoke);
+    height: 6em;
+    width: 6em;
+    filter:drop-shadow(0 0 .5em darkblue);
   }
   .info {
-    background: red;
+    /* background: red; */
     flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -65,7 +66,7 @@
   }
   .links > a {
 		padding: .4em 1em .5em;
-		color: whitesmoke;
+		color: darkgoldenrod;
 		text-decoration: none;
 		background:whitesmoke;
 		border: 3px solid transparent;
@@ -73,6 +74,6 @@
 		border-bottom-color:whitesmoke;
 	}
   .links > a:hover {
-		color:whitesmoke;
+		color:darkblue;
 	}
 </style>

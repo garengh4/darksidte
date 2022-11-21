@@ -30,6 +30,7 @@
     flex-direction: column;
     align-items: center;
     gap: 3em;
-    /* margin-top: 10em; */
+    margin-top: 8em;
+    margin-bottom: 8em;
   }
 </style>
