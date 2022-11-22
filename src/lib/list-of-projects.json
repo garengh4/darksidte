@@ -4,6 +4,7 @@
     "subtitle": "A framework being transitioned to springfox, from Spring to OpenAI.",
     "description": "A Design and documentation platform for teams and individuals working with the OpenAI specification.",
     "image": "/logos/swagger.svg",
+    "link": "https://swagger.io/",
     "repo": "https://github.com/garengh4/swagger-product"
   },
   {
@@ -11,7 +12,7 @@
     "subtitle": "A long-established framework with incredible libraries and pluggin options.",
     "description": "Migration between structured monolithic and structured micro-frontend architecture allows for incredible scalability.",
     "image": "/logos/angular.svg",
-    "link": "https://weddingangular-app-2.herokuapp.com/home",
+    "link": "https://angular.io/",
     "repo": "https://github.com/garengh4/weddingapp-java-2"
   },
   {
@@ -19,7 +20,7 @@
     "subtitle": "Reputable framework with much documentation.",
     "description": "Annotation framework built around the famous OO principles using the MVC architecture to allow for fast, secure.",
     "image": "/logos/springio.svg",
-    "link": "https://weddingangular-app-2.herokuapp.com/home",
+    "link": "https://spring.io/",
     "repo": "https://github.com/garengh4/weddingapp-java-2"
   },
   {
