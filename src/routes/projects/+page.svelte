@@ -14,7 +14,7 @@
 
 <section>
   <div class="container">
-
+    <h3>Personal projects customized</h3>
     {#each config.projects as project }
       <ProjectComponent {project} />
     {/each}
@@ -30,7 +30,7 @@
     flex-direction: column;
     align-items: center;
     gap: 3em;
-    margin-top: 8em;
+    margin-top: 5em;
     margin-bottom: 8em;
   }
 </style>

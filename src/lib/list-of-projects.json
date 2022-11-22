@@ -1,33 +1,37 @@
 [
   {
-    "title": "Personal swagger-template",
-    "subtitle": "A framework being transitioned to springfox, from Spring to OpenAI.",
-    "description": "A Design and documentation platform for teams and individuals working with the OpenAI specification.",
+    "title": "Springboot with OAuth2",
+    "subtitle": "Reputable framework with much documentation.",
+    "description": "This framework is Annotation driven and can be built around object-oriented principles. Following a model-view-controller architecture allow clear and clean code",
+    "image": "/logos/springio.svg",
+    "repo": "https://github.com/garengh4/weddingapp-java-2"
+  },
+  {
+    "title": "Angular in monolithic",
+    "subtitle": "A long-established framework with incredible libraries and pluggin options.",
+    "description": "This freamework provides a very friendly creator experience. The recent release of the micro-frontend architecture opens a new possibility into scaling code.",
+    "image": "/logos/angular.svg",
+    "repo": "https://github.com/garengh4/weddingapp-java-2"
+  },
+  {
+    "title": "Swagger to springfox",
+    "subtitle": "A framework being transitioned from swagger to springfox, from Spring to OpenAI.",
+    "description": "An open-source design and documentation platform for teams and individuals working with the OpenAI specification.",
     "image": "/logos/swagger.svg",
-    "link": "https://swagger.io/",
     "repo": "https://github.com/garengh4/swagger-product"
   },
   {
-    "title": "Personal angular-template",
-    "subtitle": "A long-established framework with incredible libraries and pluggin options.",
-    "description": "Migration between structured monolithic and structured micro-frontend architecture allows for incredible scalability.",
-    "image": "/logos/angular.svg",
-    "link": "https://angular.io/",
-    "repo": "https://github.com/garengh4/weddingapp-java-2"
-  },
-  {
-    "title": "Personal springboot-template",
-    "subtitle": "Reputable framework with much documentation.",
-    "description": "Annotation framework built around the famous OO principles using the MVC architecture to allow for fast, secure.",
-    "image": "/logos/springio.svg",
-    "link": "https://spring.io/",
-    "repo": "https://github.com/garengh4/weddingapp-java-2"
-  },
-  {
-    "title": "Personal sveltekit-template",
+    "title": "Sveltekit but with ncookie",
     "subtitle": "This very app itself...",
     "description": "This portfolio app was made with ncookie's handy Sveltekit pwa template. I'm glad I like it.",
-    "image": "/logos/noface2.svg",
+    "image": "/logos/svelte.svg",
     "repo": "https://github.com/garengh4/darksidte"
+  },
+  {
+    "title": "Nodejs",
+    "subtitle": "From frontend to backend all in one go, everything is integrated together all at once.................. GO eXpReSS!",
+    "description": "This shiny new framework Open-source javascript runtime environment. lots of acllbacks and async yum yum.",
+    "image": "/logos/nodejs.svg",
+    "repo": "https://garengh4-nodejs.herokuapp.com/"
   }
 ]
