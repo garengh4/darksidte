@@ -33,6 +33,6 @@
     "description": "This shiny new framework Open-source javascript runtime environment. lots of acllbacks and async yum yum.",
     "image": "/logos/nodejs.svg",
     "link": "https://nodejs-portfolio-2.azurewebsites.net/",
-    "repo": "https://garengh4-nodejs.herokuapp.com/"
+    "repo": "https://github.com/garengh4/theNodeJsApp"
   }
 ]
