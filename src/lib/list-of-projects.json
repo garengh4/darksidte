@@ -32,6 +32,7 @@
     "subtitle": "From frontend to backend all in one go, everything is integrated together all at once.................. GO eXpReSS!",
     "description": "This shiny new framework Open-source javascript runtime environment. lots of acllbacks and async yum yum.",
     "image": "/logos/nodejs.svg",
+    "link": "https://nodejs-portfolio-2.azurewebsites.net/",
     "repo": "https://garengh4-nodejs.herokuapp.com/"
   }
 ]
