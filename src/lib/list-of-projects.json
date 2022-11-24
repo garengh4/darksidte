@@ -1,16 +1,25 @@
 [
   {
+    "title": "Angular framework",
+    "subtitle": "A long-established framework with incredible libraries and pluggin options.",
+    "description": "This freamework provides a very friendly creator experience. The recent release of the micro-frontend architecture opens a new possibility into scaling code.",
+    "image": "/logos/angular.svg",
+    "link": "https://angular-wedding-2.azurewebsites.net",
+    "repo": "https://github.com/garengh4/weddingapp-angular-2"
+  },
+  {
+    "title": "Just Nodejs",
+    "subtitle": "From frontend to backend all in one go, everything is integrated together all at once.................. GO eXpReSS!",
+    "description": "This shiny new framework Open-source javascript runtime environment. lots of acllbacks and async yum yum.",
+    "image": "/logos/nodejs.svg",
+    "link": "https://nodejs-thenodejsapp.azurewebsites.net/",
+    "repo": "https://github.com/garengh4/theNodeJsApp"
+  },
+  {
     "title": "Springboot with OAuth2",
     "subtitle": "Reputable framework with much documentation.",
     "description": "This framework is Annotation driven and can be built around object-oriented principles. Following a model-view-controller architecture allow clear and clean code",
     "image": "/logos/springio.svg",
-    "repo": "https://github.com/garengh4/weddingapp-java-2"
-  },
-  {
-    "title": "Angular in monolithic",
-    "subtitle": "A long-established framework with incredible libraries and pluggin options.",
-    "description": "This freamework provides a very friendly creator experience. The recent release of the micro-frontend architecture opens a new possibility into scaling code.",
-    "image": "/logos/angular.svg",
     "repo": "https://github.com/garengh4/weddingapp-java-2"
   },
   {
@@ -21,18 +30,10 @@
     "repo": "https://github.com/garengh4/swagger-product"
   },
   {
-    "title": "Sveltekit but with ncookie",
+    "title": "Sveltekit",
     "subtitle": "This very app itself...",
     "description": "This portfolio app was made with ncookie's handy Sveltekit pwa template. I'm glad I like it.",
     "image": "/logos/svelte.svg",
     "repo": "https://github.com/garengh4/darksidte"
-  },
-  {
-    "title": "Nodejs",
-    "subtitle": "From frontend to backend all in one go, everything is integrated together all at once.................. GO eXpReSS!",
-    "description": "This shiny new framework Open-source javascript runtime environment. lots of acllbacks and async yum yum.",
-    "image": "/logos/nodejs.svg",
-    "link": "https://nodejs-portfolio-2.azurewebsites.net/",
-    "repo": "https://github.com/garengh4/theNodeJsApp"
   }
 ]
