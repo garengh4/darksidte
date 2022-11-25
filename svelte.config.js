@@ -6,7 +6,7 @@ import azure from 'svelte-adapter-azure-swa';
 const config = {
   preprocess: preprocess(),
   kit: {
-    adapter: azure({ out: 'my-output-directory' })
+    adapter: azure()
   }
 };
 
