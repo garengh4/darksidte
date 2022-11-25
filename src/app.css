@@ -1,5 +1,5 @@
 :root {
-  --f-fontcolor: whitesmoke;
+  --p-fontcolor: #ccc;
 }
 
 * {
@@ -15,8 +15,9 @@
 
 html,
 body {
-  color: var(--f-fontcolor);
-  font-size: 14pt;
-  font-weight: bold;
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: var(--p-fontcolor);
+  /* font-family: 'Helvetica', 'Arial', sans-serif; */
+  font-family: 'Ubuntu Condensed';
+  /* font-weight: normal; */
+  /* font-size: 9.3em; */
 }

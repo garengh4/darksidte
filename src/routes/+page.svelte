@@ -15,79 +15,72 @@
 
 <!-- Page Content -->
 <section>
-  <div class="background">
-    <div class="container">
-      <!-- ================================================================================================== -->
-      <div id="heading">
-        <h1>Hi. I'm Garen.</h1>
-        <h2>A Java Developer.</h2>
-      </div>
-      <div id="intro">
-        <p>
-          I'm also a frontend designer and studier of new technologies that
-          perform the exact same task but in a different language
-        </p>
-        <br />
-      </div>
-      <div id="fullbody">
-        <img src="/images/portrait2.png" alt="Full-body-portrait" />
-      </div>
+  <div class="grid-template-columns">
+    <!-- ================================================================================================== -->
+    <div id="title">
+      <h1>Hi. I'm Garen.</h1>
+      <h1>A Developer.</h1>
+    </div>
+    <div id="description">
+      <span>
+        I'm also a frontend web-designer and a student of new frameworks because
+        I think its really cool to think of different ways to solve a singular
+        problem.
+      </span>
+      <br />
+    </div>
+    <div id="fullbody">
+      <img src="/images/portrait2.png" alt="Full-body-portrait" />
     </div>
   </div>
 </section>
 
 <!-- #################################################################################################### -->
 <style>
-  #heading {
+  #title {
     grid-area: a;
-    margin-top: 30%;
-    margin-left: 25%;
-    font-size: 42px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #eaeeb3;
-    line-height: 2em;
-    letter-spacing: 0.3px;
+    font-size: xxx-large;
   }
-  #intro {
+  #description {
     grid-area: c;
-    margin-left: 25%;
-    letter-spacing: 0.5px;
+    font-size: x-large;
 
   }
   #fullbody > img {
-    position: absolute;
-    margin: auto;
-    top: 10em;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 500px;
+    width: 350px; /* @media */
   }
   #fullbody {
     grid-area: b;
-    filter: blur(0.5px);
-    margin-top: 40%;
-    margin-right: 20%;
   }
-  .container {
+  .grid-template-columns {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     grid-template-areas:
       "a b b"
       "c b b"
       "c b b";
-    /* margin-left: 100px; */
-    gap: 1.5em;
+    gap: 2em;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 530px) {
+    .grid-template-columns {
+      margin-top: 8em;
+    }
+    #title {
+      font-size: large;
+      margin-left: 2em;
+    }
+    #description {
+      font-size: large;
+      margin-left: 2em;
+      margin-top: -4em;
+    }
+    #fullbody > img {
+      width: 200px; /* @media */
+      margin-top: -5em;
+    }
   }
   /* ===================================================================== */
-
-  .background {
-    background: url("/images/valorant_ascent.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 120vh;
-    min-height: 120vh;
-  }
 </style>
