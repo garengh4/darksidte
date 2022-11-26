@@ -1,6 +1,9 @@
 <script>
   // Imports:
 
+  import { config } from "$lib/config";
+  import FrameworkComponent from "$lib/framework-component.svelte";
+  import HeadingComponent from "$lib/heading-component.svelte";
   // Initializations & Exports:
   // :3
 </script>
@@ -23,8 +26,8 @@
     </div>
     <div id="description">
       <span>
-        I'm also a frontend web-designer and a student of new frameworks.
-        I think it's really cool to think of different ways to solve a singular
+        I'm also a frontend web-designer and a student of new frameworks. I
+        think it's really cool to think of different ways to solve a singular
         problem. :)
       </span>
       <br />
@@ -33,10 +36,40 @@
       <img src="/images/portrait2.png" alt="Full-body-portrait" />
     </div>
   </div>
+
+  <div class="heading">
+    <h1>My fav frameworks and projects...</h1>
+  </div>
+
+  <div class="container-frameworks">
+    {#each config.frameworks as framework}
+      <FrameworkComponent {framework} />
+    {/each}
+  </div>
 </section>
 
 <!-- #################################################################################################### -->
 <style>
+  .heading{
+    /* background-color: darkorange; */
+    margin-left: 10em;
+    margin-top: 10em;
+    font-size: x-large;
+  }
+
+  .container-frameworks {
+    display: flex;
+    gap: 6em;     /* @media */
+    /* background-color: rgb(67, 111, 112); */
+    font-size: x-large;
+    /* border: 3px solid whitesmoke; */
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 5em;
+    margin-top: 2.5em;
+  }
+  /* ====================================================== */
   #title {
     grid-area: a;
     font-size: xxx-large;
@@ -52,7 +85,9 @@
   }
   #fullbody {
     grid-area: b;
+    /* background-color: darkred; */
   }
+
   .grid-template-columns {
     display: grid;
     grid-template-columns: 50em auto;
@@ -60,11 +95,12 @@
     grid-template-areas:
       "a b b"
       "c b b"
-      "c b b";
+      "c b b"
+      "d d d";
     justify-content: center;
     margin-top: 15em;
   }
-  @media screen and (max-width:1050px) {
+  @media screen and (max-width: 1050px) {
     .grid-template-columns {
       margin-top: 10em;
       grid-template-columns: auto auto;
@@ -79,11 +115,11 @@
       margin-top: -4em;
     }
     #fullbody > img {
-      width: 300px; 
+      width: 300px;
       margin-top: -7em;
     }
   }
-  @media screen and (max-width:730px) {
+  @media screen and (max-width: 730px) {
     .grid-template-columns {
       margin-top: 10em;
       grid-template-columns: auto auto;
@@ -98,7 +134,7 @@
       margin-top: -5em;
     }
     #fullbody > img {
-      width: 250px; 
+      width: 250px;
       margin-top: -7em;
     }
   }

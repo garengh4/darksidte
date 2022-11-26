@@ -29,7 +29,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    gap: 2em;
+    gap: 100em;
     width: min(55em, 100%);
     padding: 1em 2em;
     border: 3px solid whitesmoke;

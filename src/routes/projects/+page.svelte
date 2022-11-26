@@ -20,7 +20,6 @@
     {/each}
 
   </div>
-
 </section>
 
 <style>
