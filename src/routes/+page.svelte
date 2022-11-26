@@ -23,9 +23,9 @@
     </div>
     <div id="description">
       <span>
-        I'm also a frontend web-designer and a student of new frameworks because
-        I think its really cool to think of different ways to solve a singular
-        problem.
+        I'm also a frontend web-designer and a student of new frameworks.
+        I think it's really cool to think of different ways to solve a singular
+        problem. :)
       </span>
       <br />
     </div>
@@ -43,42 +43,81 @@
   }
   #description {
     grid-area: c;
-    font-size: x-large;
-
+    font-size: xx-large;
+    margin-top: -3.5em;
   }
   #fullbody > img {
-    width: 350px; /* @media */
+    width: 350px;
+    margin-top: -8em;
   }
   #fullbody {
     grid-area: b;
   }
   .grid-template-columns {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50em auto;
     grid-template-rows: auto auto;
     grid-template-areas:
       "a b b"
       "c b b"
       "c b b";
-    gap: 2em;
     justify-content: center;
+    margin-top: 15em;
   }
-
-  @media screen and (max-width: 530px) {
+  @media screen and (max-width:1050px) {
     .grid-template-columns {
-      margin-top: 8em;
+      margin-top: 10em;
+      grid-template-columns: auto auto;
     }
     #title {
-      font-size: large;
-      margin-left: 2em;
+      font-size: xx-large;
+      margin-left: 3em;
     }
     #description {
-      font-size: large;
-      margin-left: 2em;
+      font-size: x-large;
+      margin-left: 4em;
       margin-top: -4em;
     }
     #fullbody > img {
-      width: 200px; /* @media */
+      width: 300px; 
+      margin-top: -7em;
+    }
+  }
+  @media screen and (max-width:730px) {
+    .grid-template-columns {
+      margin-top: 10em;
+      grid-template-columns: auto auto;
+    }
+    #title {
+      font-size: x-large;
+      margin-left: 3em;
+    }
+    #description {
+      font-size: large;
+      margin-left: 4em;
+      margin-top: -5em;
+    }
+    #fullbody > img {
+      width: 250px; 
+      margin-top: -7em;
+    }
+  }
+  @media screen and (max-width: 585px) {
+    .grid-template-columns {
+      margin-top: 6em;
+      grid-template-columns: auto auto;
+    }
+    #title {
+      font-size: large;
+      margin-left: 1.5em;
+    }
+    #description {
+      font-size: medium;
+      margin-left: 1.75em;
+      margin-top: -4em;
+    }
+    #fullbody > img {
+      width: 200px;
       margin-top: -5em;
     }
   }
