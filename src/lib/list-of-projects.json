@@ -1,40 +1,45 @@
 [
   {
-    "title": "Java",
-    "subtitle": "A long-established framework with incredible libraries and pluggin options.",
-    "description": "This freamework provides a very friendly creator experience. The recent release of the micro-frontend architecture opens a new possibility into scaling code.",
-    "image": "/logos/java.svg",
+    "projectTitle": "Backyard Wedding - Java",
+    "projectDescription": "This freamework provides a very friendly creator experience. The recent release of the micro-frontend architecture opens a new possibility into scaling code.",
+    "projectLogo": "java wedding logo",
+    "framework":"Java",
+    "frameworkLogo":"/logos/java.svg",
     "link": "https://angular-wedding-2.azurewebsites.net",
     "repo": "https://github.com/garengh4/weddingapp-angular-2"
   },
   {
-    "title": "Angular",
-    "subtitle": "A long-established framework with incredible libraries and pluggin options.",
-    "description": "This framework provides a very friendly creator experience. The recent release of the micro-frontend architecture opens a new possibility into scaling code.",
-    "image": "/logos/angular.svg",
+    "projectTitle": "Backyard Wedding - Angular",
+    "projectDescription": "A long-established framework with incredible libraries and pluggin options.",
+    "projectLogo": "angular wedding logo",
+    "framework": "Angular",
+    "frameworkLogo":"/logos/angular.svg",
     "link": "https://angular-wedding-2.azurewebsites.net",
     "repo": "https://github.com/garengh4/weddingapp-angular-2"
   },
   {
-    "title": "Nodejs",
-    "subtitle": "From frontend to backend all in one go, everything is integrated together all at once.................. GO eXpReSS!",
-    "description": "This shiny new framework Open-source javascript runtime environment. lots of acllbacks and async yum yum.",
-    "image": "/logos/nodejs.svg",
+    "projectTitle": "theNodeJsApp - NodeJs",
+    "projectDescription": "From frontend to backend all in one go, everything is integrated together all at once.................. GO eXpReSS!",
+    "projectLogo": "no logo",
+    "framework": "NodeJs",
+    "frameworkLogo":"/logos/nodejs.svg",
     "link": "https://nodejs-thenodejsapp.azurewebsites.net/",
     "repo": "https://github.com/garengh4/theNodeJsApp"
   },
   {
-    "title": "Spring-boot",
-    "subtitle": "Reputable framework with much documentation.",
-    "description": "This framework is Annotation driven and can be built around object-oriented principles. Following a model-view-controller architecture allow clear and clean code",
-    "image": "/logos/springio.svg",
-    "repo": "https://github.com/garengh4/weddingapp-java-2"
+    "projectTitle": "Darksidte - Svelte",
+    "projectDescription": "This very app itself...",
+    "projectLogo": "no logo",
+    "framework": "Svelte",
+    "frameworkLogo":"/logos/svelte.svg",
+    "repo": "https://github.com/garengh4/darksidte"
   },
   {
-    "title": "Sveltekit",
-    "subtitle": "This very app itself...",
-    "description": "This portfolio app was made with ncookie's handy Sveltekit pwa template. I'm glad I like it.",
-    "image": "/logos/svelte.svg",
-    "repo": "https://github.com/garengh4/darksidte"
+    "projectTitle": "SwaggerUI",
+    "projectDescription": "Reputable framework with much documentation.",
+    "projectLogo": "no logo",
+    "framework": "Svelte",
+    "frameworkLogo":"/logos/swagger.svg",
+    "repo": "https://github.com/garengh4/weddingapp-java-2"
   }
 ]

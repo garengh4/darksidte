@@ -7,10 +7,11 @@ export interface Config {
 }
 
 export interface Project {
-  title: string;
-  subtitle: string;
-  description: string;
-  image?: string;
+  projectTitle: string;
+  projectDescription?: string;
+  projectLogo?: string;
+  framework?: string;
+  frameworkLogo?: string;
   link?: string;
   repo?: string
 }

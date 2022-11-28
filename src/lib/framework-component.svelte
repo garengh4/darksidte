@@ -5,8 +5,8 @@
 
 <section id="container">
   <div class="logo">
-    <img src={project.image} target="__blank" alt={project.title} />
-    <p>{project.title}</p>
+    <img src={project.frameworkLogo} target="__blank" alt={project.framework} />
+    <p>{project.framework}</p>
   </div>
 </section>
 
@@ -23,5 +23,10 @@
   }
   .logo > img {
     width: 8em;
+  }
+  @media screen and (max-width:1281px) {
+    .logo > img {
+      width: 5em;
+    }
   }
 </style>

@@ -3,6 +3,7 @@
 
   import { config } from "$lib/config";
   import FrameworkComponent from "$lib/framework-component.svelte";
+  import ProjectComponent from "$lib/project-component.svelte";
   // Initializations & Exports:
   // :3
 </script>
@@ -35,30 +36,44 @@
       <img src="/images/portrait2.png" alt="Full-body-portrait" />
     </div>
   </div>
-
+  <!-- ======================================================================================= -->
   <div class="heading">
     <h1>My fav frameworks and projects...</h1>
   </div>
 
-  <div class="container-frameworks">
-    {#each config.projects as project}
+  <div class="framework-component">
+    {#each config.projects as project} <!-- 'framework' must match in 'export let framework' in framework-component.svelte-->
       <FrameworkComponent {project} />
     {/each}
+  </div>
+  <div class="project-component">
+    {#each config.projects as project}
+      <ProjectComponent {project} />
+    {/each}
+
   </div>
 </section>
 
 <!-- #################################################################################################### -->
 <style>
-  .heading{
+  .project-component {
+    display: flex;
+    gap: 3em;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6em;
+  }
+  /* ====================================================== */
+  .heading {
     /* background-color: darkorange; */
     margin-left: 10em;
     margin-top: 10em;
     font-size: x-large;
   }
 
-  .container-frameworks {
+  .framework-component {
     display: flex;
-    gap: 6em;     /* @media */
+    gap: 6em; /* @media */
     /* background-color: rgb(67, 111, 112); */
     font-size: x-large;
     /* border: 3px solid whitesmoke; */
@@ -100,6 +115,9 @@
     margin-top: 15em;
   }
   @media screen and (max-width: 1050px) {
+    .framework-component{
+      gap: 5em;
+    }
     .grid-template-columns {
       margin-top: 10em;
       grid-template-columns: auto auto;
@@ -119,6 +137,9 @@
     }
   }
   @media screen and (max-width: 730px) {
+    .framework-component{
+      gap: 3em;
+    }
     .grid-template-columns {
       margin-top: 10em;
       grid-template-columns: auto auto;

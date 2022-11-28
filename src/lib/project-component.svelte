@@ -5,11 +5,11 @@
 
 <section id="container">
   <div class="info">
-    <h3>{project.title}</h3>
-    <span>{project.subtitle}</span>
-    <p>{project.description}</p>
+    <h3>{project.projectTitle}</h3>
+    <span>{project.projectDescription}</span>
+    <!-- <p>{project.pro}</p> -->
   </div>
-  <img src={project.image} alt={project.subtitle} />
+  <!-- <img src={project.image} alt={project.subtitle} /> -->
 
   	<!-- Project Links -->
 	{#if project.link || project.repo}
