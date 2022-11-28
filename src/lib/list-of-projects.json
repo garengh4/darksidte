@@ -1,14 +1,22 @@
 [
   {
-    "title": "Angular framework",
+    "title": "Java",
     "subtitle": "A long-established framework with incredible libraries and pluggin options.",
     "description": "This freamework provides a very friendly creator experience. The recent release of the micro-frontend architecture opens a new possibility into scaling code.",
+    "image": "/logos/java.svg",
+    "link": "https://angular-wedding-2.azurewebsites.net",
+    "repo": "https://github.com/garengh4/weddingapp-angular-2"
+  },
+  {
+    "title": "Angular",
+    "subtitle": "A long-established framework with incredible libraries and pluggin options.",
+    "description": "This framework provides a very friendly creator experience. The recent release of the micro-frontend architecture opens a new possibility into scaling code.",
     "image": "/logos/angular.svg",
     "link": "https://angular-wedding-2.azurewebsites.net",
     "repo": "https://github.com/garengh4/weddingapp-angular-2"
   },
   {
-    "title": "Just Nodejs",
+    "title": "Nodejs",
     "subtitle": "From frontend to backend all in one go, everything is integrated together all at once.................. GO eXpReSS!",
     "description": "This shiny new framework Open-source javascript runtime environment. lots of acllbacks and async yum yum.",
     "image": "/logos/nodejs.svg",
@@ -16,18 +24,11 @@
     "repo": "https://github.com/garengh4/theNodeJsApp"
   },
   {
-    "title": "Springboot with OAuth2",
+    "title": "Spring-boot",
     "subtitle": "Reputable framework with much documentation.",
     "description": "This framework is Annotation driven and can be built around object-oriented principles. Following a model-view-controller architecture allow clear and clean code",
     "image": "/logos/springio.svg",
     "repo": "https://github.com/garengh4/weddingapp-java-2"
-  },
-  {
-    "title": "Swagger to springfox",
-    "subtitle": "A framework being transitioned from swagger to springfox, from Spring to OpenAI.",
-    "description": "An open-source design and documentation platform for teams and individuals working with the OpenAI specification.",
-    "image": "/logos/swagger.svg",
-    "repo": "https://github.com/garengh4/swagger-product"
   },
   {
     "title": "Sveltekit",

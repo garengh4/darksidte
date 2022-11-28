@@ -15,9 +15,6 @@
     position: relative;
     display: flex;
     align-items: center;
-    /* gap: 50em; */
-    /* padding: 1em 1em; */
-    /* border: 3px solid whitesmoke; */
     font-size: medium;
   }
   .logo {

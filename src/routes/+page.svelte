@@ -3,7 +3,6 @@
 
   import { config } from "$lib/config";
   import FrameworkComponent from "$lib/framework-component.svelte";
-  import HeadingComponent from "$lib/heading-component.svelte";
   // Initializations & Exports:
   // :3
 </script>
