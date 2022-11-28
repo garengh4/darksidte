@@ -4,7 +4,7 @@ export interface Config {
   twitter: string;
   linkedin: string;
   projects: Project[];
-  frameworks: Framework[];
+  // frameworks: Framework[];
 }
 
 export interface Project {
@@ -15,8 +15,8 @@ export interface Project {
   link?: string;
   repo?: string
 }
-export interface Framework {
-  title:string;
-  image?: string;
-  link?: string;
-}
+// export interface Framework {
+//   title:string;
+//   image?: string;
+//   link?: string;
+// }

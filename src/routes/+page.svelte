@@ -42,8 +42,8 @@
   </div>
 
   <div class="container-frameworks">
-    {#each config.frameworks as framework}
-      <FrameworkComponent {framework} />
+    {#each config.projects as project}
+      <FrameworkComponent {project} />
     {/each}
   </div>
 </section>

@@ -1,12 +1,12 @@
 <script lang="ts">
-  import type { Framework } from "$lib/types";
-  export let framework: Framework;
+  import type { Project } from "$lib/types";
+  export let project: Project;
 </script>
 
 <section id="container">
   <div class="logo">
-    <img src={framework.image} target="__blank" alt={framework.title} />
-    <p>{framework.title}</p>
+    <img src={project.image} target="__blank" alt={project.title} />
+    <p>{project.title}</p>
   </div>
 </section>
 
