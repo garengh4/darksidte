@@ -1,0 +1,42 @@
+[
+  {
+    "project":"Backyard wedding app",
+    "frameworkTitle":"Angular",
+    "frameworkLogo": "/logos/angular.svg"
+  },
+  {
+    "project":"Backyard wedding app",
+    "frameworkTitle":"Java",
+    "frameworkLogo": "/logos/java.svg"
+  },
+  {
+    "project":"Backyard wedding app",
+    "frameworkTitle":"Spring boot",
+    "frameworkLogo": "/logos/springio.svg"
+  },
+  {
+    "project":"Backyard wedding app",
+    "frameworkTitle":"Hibernate",
+    "frameworkLogo": "/logos/hibernate.svg"
+  },
+  {
+    "project":"Backyard wedding app",
+    "frameworkTitle":"Swagger",
+    "frameworkLogo": "/logos/swagger.svg"
+  },
+  {
+    "project":"Backyard wedding app",
+    "frameworkTitle":"Azure",
+    "frameworkLogo": "/logos/azure.svg"
+  },
+  {
+    "project":"theNodeJsApp",
+    "frameworkTitle":"NodeJs",
+    "frameworkLogo": "/logos/nodejs.svg"
+  },
+  {
+    "project":"Darksidte",
+    "frameworkTitle":"Sveltekit",
+    "frameworkLogo": "/logos/svelte.svg"
+  }
+]

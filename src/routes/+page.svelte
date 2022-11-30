@@ -38,14 +38,29 @@
   </div>
   <!-- ======================================================================================= -->
   <div class="heading">
-    <h1>My fav frameworks and projects...</h1>
+    <h1>Frameworks and languages I love and work with...</h1>
   </div>
 
-  <div class="framework-component">
-    {#each config.projects as project} <!-- 'framework' must match in 'export let framework' in framework-component.svelte-->
-      <FrameworkComponent {project} />
+  <div class="framework-container">
+    {#each config.frameworks as framework} 
+      <FrameworkComponent {framework} />
     {/each}
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="project-component">
     {#each config.projects as project}
       <ProjectComponent {project} />
@@ -56,6 +71,10 @@
 
 <!-- #################################################################################################### -->
 <style>
+
+
+
+  /* ============================================================= */
   .project-component {
     display: flex;
     gap: 3em;
@@ -71,17 +90,14 @@
     font-size: x-large;
   }
 
-  .framework-component {
+  /* ====================================================== */
+  .framework-container {
     display: flex;
-    gap: 6em; /* @media */
-    /* background-color: rgb(67, 111, 112); */
-    font-size: x-large;
-    /* border: 3px solid whitesmoke; */
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    margin-left: 5em;
-    margin-top: 2.5em;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 4.5em;
+    margin: 5em 7em 10em 10em; /* @media */
+    /* background-color: darkblue; */
   }
   /* ====================================================== */
   #title {

@@ -1,20 +1,19 @@
 <script lang="ts">
-  import type { Project } from "$lib/types";
-  export let project: Project;
+  import type { Framework } from "$lib/types";
+  export let framework: Framework;
 </script>
 
 <section id="container">
   <div class="logo">
-    <img src={project.frameworkLogo} target="__blank" alt={project.framework} />
-    <p>{project.framework}</p>
+    <img src={framework.frameworkLogo} target="__blank" alt={framework.project} />
+    <p>{framework.frameworkTitle}</p>
   </div>
 </section>
 
 <style>
   #container {
-    position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     font-size: medium;
   }
   .logo {
@@ -22,7 +21,7 @@
     line-height: 2em;
   }
   .logo > img {
-    width: 8em;
+    width: 5.5em;
   }
   @media screen and (max-width:1281px) {
     .logo > img {

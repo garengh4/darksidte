@@ -5,8 +5,8 @@
 
 <section id="container">
   <div class="info">
-    <h3>{project.projectTitle}</h3>
-    <span>{project.projectDescription}</span>
+    <h3>{project.project}</h3>
+    <span>{project.description}</span>
     <!-- <p>{project.pro}</p> -->
   </div>
   <!-- <img src={project.image} alt={project.subtitle} /> -->
@@ -29,17 +29,17 @@
     position: relative;
     display: flex;
     align-items: center;
-    gap: 100em;
+    /* gap: 100em;     */
     width: min(55em, 100%);
     padding: 1em 2em;
     border: 3px solid whitesmoke;
-    font-weight: normal;
+    /* font-weight: normal; */
   }
-  img {
+  /* img {
     height: 6em;
     width: 6em;
     filter:drop-shadow(0 0 .5em darkblue);
-  }
+  } */
   .info {
     /* background: red; */
     flex: 1;
@@ -47,10 +47,10 @@
 		flex-direction: column;
 		gap: .5em;
   }
-  .info > p {
+  /* .info > p {
     color: whitesmoke;
     font-size: 1em;
-  }
+  } */
   #container:hover > div.links {
     visibility: visible;
   }
