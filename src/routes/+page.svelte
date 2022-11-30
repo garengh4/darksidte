@@ -37,8 +37,8 @@
     </div>
   </div>
   <!-- ======================================================================================= -->
-  <div class="heading">
-    <h1>Frameworks and languages I love and work with...</h1>
+  <div id="heading">
+    <h2>Frameworks I love...</h2>
   </div>
 
   <div class="framework-container">
@@ -80,14 +80,13 @@
     gap: 3em;
     flex-direction: column;
     align-items: center;
-    margin-top: 6em;
+    margin-top: 3em;
+    margin-bottom:5em;
   }
   /* ====================================================== */
-  .heading {
-    /* background-color: darkorange; */
-    margin-left: 10em;
-    margin-top: 10em;
-    font-size: x-large;
+  #heading {
+    grid-area: d;
+    margin-top: 5em;
   }
 
   /* ====================================================== */
@@ -95,32 +94,32 @@
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-    gap: 4.5em;
-    margin: 5em 7em 10em 10em; /* @media */
-    /* background-color: darkblue; */
+    gap: 3em;
+    margin-top: 1em;
   }
   /* ====================================================== */
   #title {
     grid-area: a;
-    font-size: xxx-large;
+    margin-top: -5em;
   }
+
   #description {
     grid-area: c;
-    font-size: xx-large;
-    margin-top: -3.5em;
+    font-size: small;
+    margin-top: -4em;
+    line-height: 1.5em;
   }
   #fullbody > img {
-    width: 350px;
+    width: 150px;
     margin-top: -8em;
   }
   #fullbody {
     grid-area: b;
-    /* background-color: darkred; */
   }
 
   .grid-template-columns {
     display: grid;
-    grid-template-columns: 50em auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     grid-template-areas:
       "a b b"
@@ -128,70 +127,8 @@
       "c b b"
       "d d d";
     justify-content: center;
-    margin-top: 15em;
+    margin-top: 10em;
   }
-  @media screen and (max-width: 1050px) {
-    .framework-component{
-      gap: 5em;
-    }
-    .grid-template-columns {
-      margin-top: 10em;
-      grid-template-columns: auto auto;
-    }
-    #title {
-      font-size: xx-large;
-      margin-left: 3em;
-    }
-    #description {
-      font-size: x-large;
-      margin-left: 4em;
-      margin-top: -4em;
-    }
-    #fullbody > img {
-      width: 300px;
-      margin-top: -7em;
-    }
-  }
-  @media screen and (max-width: 730px) {
-    .framework-component{
-      gap: 3em;
-    }
-    .grid-template-columns {
-      margin-top: 10em;
-      grid-template-columns: auto auto;
-    }
-    #title {
-      font-size: x-large;
-      margin-left: 3em;
-    }
-    #description {
-      font-size: large;
-      margin-left: 4em;
-      margin-top: -5em;
-    }
-    #fullbody > img {
-      width: 250px;
-      margin-top: -7em;
-    }
-  }
-  @media screen and (max-width: 585px) {
-    .grid-template-columns {
-      margin-top: 6em;
-      grid-template-columns: auto auto;
-    }
-    #title {
-      font-size: large;
-      margin-left: 1.5em;
-    }
-    #description {
-      font-size: medium;
-      margin-left: 1.75em;
-      margin-top: -4em;
-    }
-    #fullbody > img {
-      width: 200px;
-      margin-top: -5em;
-    }
-  }
+  
   /* ===================================================================== */
 </style>

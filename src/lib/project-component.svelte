@@ -4,10 +4,17 @@
 </script>
 
 <section>
-  <div class="container" style="background-image: url('{project.background}')">
-    <div class="image">
-      <img src={project.logo} alt={project.project} />
-    </div>
+  <div class="container">
+
+    {#if project.background} 
+      <div class="project" style="background-image: url('{project.background}');background-position: center center;
+      ">
+        {#if project.logo}
+          <img src={project.logo} alt={project.project} />
+        {/if}
+      </div>
+    {/if}
+
 
     <div class="info">
       <h3>{project.project}</h3>
@@ -29,25 +36,33 @@
 </section>
 
 <style>
-  .container {
-    width: 630px;
-    background-color: whitesmoke;
-    border-radius: 10px;
+
+  .container > .project >img {
+    width: 150px;
+    margin-left: 2em;
   }
-  .container > .image {
+
+  .container > .project {
+    height:280px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
   }
+  
   .info {
     background: rgba(53, 53, 53, 0.47);
     backdrop-filter: blur(62px);
-    font-weight: bold;
     color:white;
     padding: 2em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
   }
-  /* .info > p {
-    color: whitesmoke;
-    font-size: 1em;
-  } */
+  h3 {
+    font-size: x-large;
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+  span {
+    line-height: 1.5em;
+    /* font-family: Poppins,Helvetica,system-ui; */
+  }
 </style>

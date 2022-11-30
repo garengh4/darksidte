@@ -4,20 +4,20 @@ export interface Config {
   twitter: string;
   linkedin: string;
   projects: Project[];
-  frameworks: Framework[];
+  frameworks:Partial <Framework[]>;
 }
 
 export interface Project {
-  project?: string;
-  description?: string;
+  project: string;
+  description: string;
   logo?: string;
-  background?: string;
+  background: string;
   link?: string;
-  repo?: string
+  repo: string
 }
 
 export interface Framework {
-  project?: string;
-  frameworkTitle?: string;
-  frameworkLogo?: string;
+  project:string;
+  frameworkTitle: string;
+  frameworkLogo: string;
 }

@@ -4,8 +4,8 @@
 	const links = [
 		{ route: '/', name: 'Work' },
 		{ route: '/about', name: 'About' },
-    { route: '/projects', name: 'Projects' },
-		{ route: '/contact', name: 'Contact' }
+    // { route: '/projects', name: 'Projects' },
+		// { route: '/contact', name: 'Contact' }
 
 	];
 
