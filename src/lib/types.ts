@@ -11,6 +11,7 @@ export interface Project {
   project?: string;
   description?: string;
   logo?: string;
+  background?: string;
   link?: string;
   repo?: string
 }
