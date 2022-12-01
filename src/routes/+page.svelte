@@ -103,9 +103,8 @@
 
   #box-hi{
     grid-area: a;
-    font-size: xx-large;
+    font-size: 20.5pt;
     margin-top: -3em;
-
   }
 
   #description {
@@ -123,7 +122,7 @@
 
   .grid-template-columns {
     display: grid;
-    grid-template-columns: 20em auto;
+    grid-template-columns: 10em auto;     /* @media */
     grid-template-rows: auto auto;
     grid-template-areas:
       "a b b"
@@ -133,6 +132,7 @@
     justify-content: center;
     margin-top: 10em;
     margin-bottom: 5em;
+    gap: 1em;
   }
 
   /* //TODO: SOMETHING BROKE HERE BETWEEN LAPTOP AND TABLET */
