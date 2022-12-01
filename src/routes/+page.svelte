@@ -8,7 +8,7 @@
   // :3
 </script>
 
-<!-- #################################################################################################### -->
+`<!-- #################################################################################################### -->
 
 <!-- SvelteKit Dynamic Header -->
 <svelte:head>
@@ -20,9 +20,9 @@
 <section>
   <div class="grid-template-columns">
     <!-- ================================================================================================== -->
-    <div id="title">
-      <h1>Hi. I'm Garen.</h1>
-      <h1>A Developer.</h1>
+    <div id="box-hi">
+      <span>Hi. I'm Garen.</span>
+      <span>A Developer.</span>
     </div>
     <div id="description">
       <span>
@@ -37,76 +37,80 @@
     </div>
   </div>
   <!-- ======================================================================================= -->
+
   <div id="heading">
-    <h2>Frameworks I love...</h2>
+    <h2>Frameworks I love and work with...</h2>
   </div>
 
   <div class="framework-container">
-    {#each config.frameworks as framework} 
+    {#each config.frameworks as framework}
       <FrameworkComponent {framework} />
     {/each}
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="project-component">
-    {#each config.projects as project}
-      <ProjectComponent {project} />
-    {/each}
-
+  <div id="heading">
+    <h2>My current projects!</h2>
   </div>
+
+  <div class="test">
+    <div class="project-component">
+      {#each config.projects as project}
+        <ProjectComponent {project} />
+      {/each}
+    </div>
+  </div>
+
 </section>
 
 <!-- #################################################################################################### -->
 <style>
-
-
-
   /* ============================================================= */
+  .test {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
   .project-component {
     display: flex;
     gap: 3em;
     flex-direction: column;
     align-items: center;
-    margin-top: 3em;
-    margin-bottom:5em;
+    /* margin-top: 3em; */
+    margin-bottom: 5em;
   }
   /* ====================================================== */
   #heading {
     grid-area: d;
-    margin-top: 5em;
+    margin-bottom: 5em;
+    font-size: small;
+    text-align: center;
+
   }
 
-  /* ====================================================== */
+  /* =====================//TODO: small @media bug needs fixing======================== */
   .framework-container {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-    gap: 3em;
-    margin-top: 1em;
+    gap:1em;
+    margin-top: -3em;
+    justify-content: center;
+    margin-bottom: 8em;
+
   }
   /* ====================================================== */
-  #title {
+
+  #box-hi{
     grid-area: a;
-    margin-top: -5em;
+    font-size: xx-large;
+    margin-top: -3em;
+
   }
 
   #description {
     grid-area: c;
     font-size: small;
-    margin-top: -4em;
     line-height: 1.5em;
   }
   #fullbody > img {
@@ -119,7 +123,7 @@
 
   .grid-template-columns {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 20em auto;
     grid-template-rows: auto auto;
     grid-template-areas:
       "a b b"
@@ -128,7 +132,39 @@
       "d d d";
     justify-content: center;
     margin-top: 10em;
+    margin-bottom: 5em;
   }
-  
+
+  /* //TODO: SOMETHING BROKE HERE BETWEEN LAPTOP AND TABLET */
+  /* @media screen and (min-width: 760px) {
+    .grid-template-columns {
+      grid-template-columns: 100em auto;
+    }
+    #title {
+      font-size: xx-large;
+      margin-top: -1em;
+    }
+    #description {
+      font-size: medium;
+      margin-top: -2em;
+    }
+    #fullbody > img {
+      width: 200px;
+      margin-top: -5em;
+    }
+    #heading {
+      font-size: large;
+      margin-bottom: 3em;
+    }
+
+    .project-component {
+      align-items: center;
+      justify-content: center;
+      width: 20em;
+    }
+    .framework-container {
+      gap: 2em;
+    } 
+  }*/
   /* ===================================================================== */
 </style>

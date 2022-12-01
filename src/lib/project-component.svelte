@@ -5,16 +5,19 @@
 
 <section>
   <div class="container">
-
-    {#if project.background} 
-      <div class="project" style="background-image: url('{project.background}');background-position: center center;
-      ">
+    {#if project.background}
+      <div
+        class="project"
+        style="background-image: url('{project.background}');background-position: center center;"
+      >
+        <!-- <img src="'{project.background}" alt="" /> -->
         {#if project.logo}
-          <img src={project.logo} alt={project.project} />
+          <img class="center" src={project.logo} alt={project.project} />
+        {:else}
+          <img class="default" src="/images/default-logo-1.svg" alt="HELLO WORLD" />
         {/if}
       </div>
     {/if}
-
 
     <div class="info">
       <h3>{project.project}</h3>
@@ -23,7 +26,7 @@
   </div>
 
   <!-- Project Links -->
-  <!-- {#if project.link || project.repo}
+  {#if project.link || project.repo}
     <div class="links">
       {#if project.link}
         <a href={project.link} target="__blank">Live Project</a>
@@ -32,29 +35,36 @@
         <a href={project.repo} target="__blank">Source Code</a>
       {/if}
     </div>
-  {/if} -->
+  {/if}
 </section>
 
 <style>
-
-  .container > .project >img {
-    width: 150px;
+   .container > .project>.default{
+    display: block;
+    width: 20em;/* @media */
+  }
+  .container > .project> .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;/* @media */
+  }
+  .container > .project > img {
+    width: 10em; /* @media */
     margin-left: 2em;
   }
-
   .container > .project {
-    height:280px;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
   }
-  
   .info {
     background: rgba(53, 53, 53, 0.47);
     backdrop-filter: blur(62px);
-    color:white;
+    color: white;
     padding: 2em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    width: 40em; /* @media */
   }
   h3 {
     font-size: x-large;
@@ -65,4 +75,13 @@
     line-height: 1.5em;
     /* font-family: Poppins,Helvetica,system-ui; */
   }
+
+  /* @media screen and (min-width: 750px) {
+    .container > .project > img {
+      width: 20em;
+    }
+    .container > .project {
+      width: 40em;
+    }
+  } */
 </style>
