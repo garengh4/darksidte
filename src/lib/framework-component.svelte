@@ -14,14 +14,15 @@
   #container {
     display: flex;
     align-items: flex-end;
-    font-size: xx-small;
+    
   }
   .logo {
     text-align: center;
     line-height: 2em;
+    font-size: xx-small;
   }
   .logo > img {
-    width:4em;
+    width:6em;
   }
 
   @media screen and (min-width: 750px) {
