@@ -16,26 +16,44 @@
       {/if}
     </div>
     <div class="console">
-      <h3>{project.project}</h3>
-      <span>{project.description}</span>
-      
-    </div>
-    <div class="links">
-      <a href={project.repo}>Source code</a>
-      {#if project.link}
-        <a href={project.link}>Live Project</a>
-      {/if}
-    </div>
+      <div class="data">
+        <h3>{project.project}</h3>
+        <p>{project.description}</p>
+      </div>
 
+      <div class="links">
+        <a href={project.repo}>Source code</a>
+        {#if project.link}
+          <a href={project.link}>Live Project</a>
+        {/if}
+      </div>
+    </div>
   </div>
 </section>
 
 <style>
-  .links {
+  .container {
+    width: 20em;
+    padding-bottom: 10em;
+  }
+  .display > img {
+    width: 20em;
+  }
+  .console > .data > h3 {
+    font-size: 18pt;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  .console > .data > p {
+    line-height: 1.5em;
+    font-size: small;
+    margin-bottom: 2em;
+  }
+  .console > .links {
     text-align: center;
   }
-  a {
-    /* background-color: #4caf50; /* Green */
+
+  .console > .links > a {
     color: white;
     padding: 10px 30px;
     text-align: center;
@@ -47,13 +65,10 @@
     opacity: 0.6;
     background-color: #555;
   }
-  a:hover {
+  .console > .links > a:hover {
     background-color: darkred;
     color: bisque;
-    opacity: 1
-  }
-  .container {
-    width: 20em;
+    opacity: 1;
   }
 
   .console {
@@ -62,17 +77,16 @@
     color: white;
     padding: 1.5em;
   }
-  img {
-    width: 20em;
-  }
 
-  h3 {
-    font-size: 18pt;
-    margin-bottom: 1em;
-    font-weight: bold;
-  }
-  span {
-    line-height: 1.5em;
-    font-size: small;
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 30em;
+    }
+    .display > img {
+      width: 30em;
+    }
+    .console > .data > p {
+      font-size:  11pt;
+    }
   }
 </style>

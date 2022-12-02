@@ -22,6 +22,7 @@
     <!-- ================================================================================================== -->
     <div id="box-hi">
       <span>Hi. I'm Garen.</span>
+      <br />
       <span>A Developer.</span>
     </div>
     <div id="description">
@@ -52,7 +53,6 @@
     </div>
   </div>
 
-
   <div id="heading">
     <h2>My current projects!</h2>
   </div>
@@ -62,8 +62,6 @@
       <ProjectComponent {project} />
     {/each}
   </div>
-
-  
 </section>
 
 <!-- #################################################################################################### -->
@@ -84,7 +82,7 @@
   #box-hi {
     grid-area: a;
     font-size: 20.5pt;
-    margin-top:2em ;
+    margin-top: 2em;
     margin-bottom: -2em;
   }
   #description {
@@ -102,7 +100,7 @@
   #heading {
     grid-area: d;
     font-size: 11pt;
-    text-align: center;
+    margin-left: 1.5em;
     margin-bottom: 2em;
   }
 
@@ -117,7 +115,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5em;    /* @media */
   }
 
   .scroll-container {
@@ -134,7 +131,24 @@
     display: inline-block;
   }
 
-
   @media screen and (min-width: 768px) {
+    .grid-template-columns {
+      grid-template-columns: 20em auto; /* @media */
+    }
+    #box-hi {
+      font-size: 28pt;
+      margin-bottom: -2em;
+    }
+    #description {
+      font-size: medium;
+    }
+    #fullbody > img {
+      width: 200px;
+    }
+    #heading{
+      font-size:large;
+      padding-left: 3em;
+    }
+
   }
 </style>

@@ -27,7 +27,7 @@
 
   @media screen and (min-width: 750px) {
     .logo > img {
-      width:6em;
+      width:8em;
     }
     
   }
