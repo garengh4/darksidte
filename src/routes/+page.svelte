@@ -98,7 +98,6 @@
     margin-bottom: 5em;
     font-size: small;
     text-align: center;
-
   }
 
     .framework-container {
