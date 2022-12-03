@@ -78,7 +78,7 @@
     padding: 1.5em;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 450px) and (max-width: 768px) {
     .container {
       width: 30em;
     }
@@ -89,7 +89,7 @@
       font-size:  11pt;
     }
   }
-  @media screen and (min-width: 1060px) {
+  @media screen and (min-width: 769px) and (max-width: 1680px) {
     .container {
       width: 40em;
     }
@@ -104,6 +104,23 @@
     }
     .console > .links > a {
       font-size: 20pt;
+    }
+  }
+  @media screen and (min-width: 1681px) {
+    .container {
+      width: 60em;
+    }
+    .display > img {
+      width: 60em;
+    }
+    .console > .data > h3 {
+      font-size: 44pt;
+    }
+    .console > .data > p {
+      font-size:  24pt;
+    }
+    .console > .links > a {
+      font-size: 32pt;
     }
   }
 </style>

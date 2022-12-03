@@ -18,24 +18,32 @@
   }
   .logo {
     text-align: center;
-    line-height: 2em;
+    line-height: 3em;
     font-size: xx-small;
   }
   .logo > img {
     width:6em;
   }
 
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 450px) and (max-width: 768px) {
     .logo > img {
       width:8em;
     }
   }
-  @media screen and (min-width: 1060px) {
+  @media screen and (min-width: 769px) and (max-width: 1680px) {
     .logo > p {
       font-size:x-large;
     }
     .logo > img {
       width:14em;
+    }
+  }
+  @media screen and (min-width: 1681px) {
+    .logo > p {
+      font-size:x-large;
+    }
+    .logo > img {
+      width:16em;
     }
   }
 
