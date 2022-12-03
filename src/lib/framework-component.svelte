@@ -29,7 +29,14 @@
     .logo > img {
       width:8em;
     }
-    
+  }
+  @media screen and (min-width: 1060px) {
+    .logo > p {
+      font-size:x-large;
+    }
+    .logo > img {
+      width:14em;
+    }
   }
 
 </style>

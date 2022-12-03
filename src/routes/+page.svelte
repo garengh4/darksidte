@@ -53,10 +53,6 @@
     </div>
   </div>
 
-  <div id="heading">
-    <h2>My current projects!</h2>
-  </div>
-
   <div class="project-component">
     {#each config.projects as project}
       <ProjectComponent {project} />
@@ -77,7 +73,7 @@
       "d d d";
     justify-content: center;
     gap: 1em;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
   }
   #box-hi {
     grid-area: a;
@@ -124,7 +120,7 @@
     background: transparent;
     height: 100%;
     border-radius: 15px;
-    margin-bottom: 5em;
+    margin-bottom: 10em;
   }
 
   .gridscroll {
@@ -145,10 +141,35 @@
     #fullbody > img {
       width: 200px;
     }
-    #heading{
-      font-size:large;
+    #heading {
+      font-size: large;
       padding-left: 3em;
     }
-
+  }
+  @media screen and (min-width: 1060px) {
+    .grid-template-columns {
+      grid-template-columns: 40em auto; /* @media */
+      margin-top:10em;
+      margin-bottom: 15em;
+    }
+    #box-hi {
+      font-size:54pt;
+    }
+    #description {
+      font-size: xx-large;
+    }
+    #fullbody > img {
+      width: 400px;
+    }
+    #heading {
+      font-size: 28pt;
+      padding: 5em 2em 0em;
+    }
+    .framework-container{
+      gap: 5em;
+    }
+    .scroll-container{
+      margin-bottom: 20em;
+    }
   }
 </style>

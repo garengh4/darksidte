@@ -40,13 +40,13 @@
     width: 20em;
   }
   .console > .data > h3 {
-    font-size: 18pt;
+    font-size: 15.5pt;
     margin-bottom: 0.5em;
     font-weight: bold;
   }
   .console > .data > p {
     line-height: 1.5em;
-    font-size: small;
+    font-size: 11pt;
     margin-bottom: 2em;
   }
   .console > .links {
@@ -87,6 +87,23 @@
     }
     .console > .data > p {
       font-size:  11pt;
+    }
+  }
+  @media screen and (min-width: 1060px) {
+    .container {
+      width: 40em;
+    }
+    .display > img {
+      width: 40em;
+    }
+    .console > .data > h3 {
+      font-size: 28pt;
+    }
+    .console > .data > p {
+      font-size:  16pt;
+    }
+    .console > .links > a {
+      font-size: 20pt;
     }
   }
 </style>
