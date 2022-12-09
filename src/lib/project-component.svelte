@@ -110,10 +110,13 @@
   }
   @media screen and (min-width: 1681px) {
     .container {
-      width: 60em;
+      width: 80em;
     }
     .display > img {
-      width: 60em;
+      width: 80em;
+    }
+    .console > .data {
+      padding: 2em;
     }
     .console > .data > h3 {
       font-size: 44pt;

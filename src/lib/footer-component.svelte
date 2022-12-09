@@ -45,4 +45,22 @@
       letter-spacing: -1px;
     }
   }
+  @media screen and (min-width: 769px) and (max-width: 1680px) {
+    .real-footer > h1 {
+      font-size: 35pt;
+    }
+    .real-footer > p {
+      font-size: 12pt;
+      letter-spacing: -1px;
+    }
+  }
+  @media screen and (min-width: 1681px) {
+    .real-footer > h1 {
+      font-size: 38pt;
+    }
+    .real-footer > p {
+      font-size: 12pt;
+      letter-spacing: -1px;
+    }
+  }
 </style>

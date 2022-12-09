@@ -170,24 +170,27 @@
   /* desktop */
   @media screen and (min-width: 1681px) {
     .grid-template-columns {
-      grid-template-columns: 55em auto; /* @media */
-      margin-top: 10em;
-      margin-bottom: 15em;
+      grid-template-columns: 80em auto; /* @media */
     }
     #box-hi {
-      /* font-size: 60pt; */
+      font-size: 54pt;
+    }
+    h2{
+      font-size: 35pt;
+      margin-left: 2em;
+      margin-bottom: 0.5em;
     }
     #description {
-      font-size: xx-large;
+      font-size: 26pt;
     }
     #fullbody > img {
-      width: 400px;
+      width: 450px;
     }
     .framework-container {
       gap: 5em;
     }
     .scroll-container {
-      margin-bottom: 20em;
+      margin-bottom: 25em;
     }
   }
 </style>
