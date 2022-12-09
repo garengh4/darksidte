@@ -145,14 +145,15 @@
   /* MacAirBook */
   @media screen and (min-width: 769px) and (max-width: 1680px) {
     .grid-template-columns {
-      grid-template-columns: 60em auto; /* @media */
+      grid-template-columns: 65em auto; /* @media */
     }
     #box-hi {
       font-size: 54pt;
     }
     h2{
       font-size: 35pt;
-      /* margin-bottom: 0.5em; */
+      margin-left: 2em;
+      margin-bottom: 0.5em;
     }
     #description {
       font-size: 26pt;
@@ -187,7 +188,8 @@
       width: 450px;
     }
     .framework-container {
-      gap: 5em;
+      padding-left: 5em;
+      gap: 6em;
     }
     .scroll-container {
       margin-bottom: 25em;

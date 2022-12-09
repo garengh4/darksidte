@@ -93,16 +93,16 @@
   }
   @media screen and (min-width: 769px) and (max-width: 1680px) {
     .container {
-      width: 40em;
+      width: 70em;
     }
     .display > img {
-      width: 40em;
+      width: 70em;
     }
     .console > .data > h3 {
       font-size: 28pt;
     }
     .console > .data > p {
-      font-size:  16pt;
+      font-size:  18pt;
     }
     .console > .links > a {
       font-size: 20pt;
@@ -119,10 +119,10 @@
       padding: 2em;
     }
     .console > .data > h3 {
-      font-size: 44pt;
+      font-size: 34pt;
     }
     .console > .data > p {
-      font-size:  24pt;
+      font-size:  22pt;
     }
     .console > .links > a {
       font-size: 32pt;
