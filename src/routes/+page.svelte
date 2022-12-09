@@ -162,7 +162,7 @@
       width: 450px;
     }
     .framework-container {
-      gap: 5em;
+      gap: 6em;
     }
     .scroll-container {
       margin-bottom: 25em;

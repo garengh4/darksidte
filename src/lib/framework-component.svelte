@@ -36,15 +36,15 @@
       font-size:18pt;
     }
     .logo > img {
-      width:12em;
+      width:10em;
     }
   }
   @media screen and (min-width: 1681px) {
     .logo > p {
-      font-size:x-large;
+      font-size:18pt;
     }
     .logo > img {
-      width:12em;
+      width:11.5em;
     }
   }
 
