@@ -145,14 +145,15 @@
   /* MacAirBook */
   @media screen and (min-width: 769px) and (max-width: 1680px) {
     .grid-template-columns {
-      grid-template-columns: 60em auto; /* @media */
+      grid-template-columns: 65em auto; /* @media */
     }
     #box-hi {
       font-size: 54pt;
     }
     h2{
       font-size: 35pt;
-      /* margin-bottom: 0.5em; */
+      margin-left: 2em;
+      margin-bottom: 0.5em;
     }
     #description {
       font-size: 26pt;
@@ -170,24 +171,28 @@
   /* desktop */
   @media screen and (min-width: 1681px) {
     .grid-template-columns {
-      grid-template-columns: 55em auto; /* @media */
-      margin-top: 10em;
-      margin-bottom: 15em;
+      grid-template-columns: 80em auto; /* @media */
     }
     #box-hi {
-      /* font-size: 60pt; */
+      font-size: 54pt;
+    }
+    h2{
+      font-size: 35pt;
+      margin-left: 2em;
+      margin-bottom: 0.5em;
     }
     #description {
-      font-size: xx-large;
+      font-size: 26pt;
     }
     #fullbody > img {
-      width: 400px;
+      width: 450px;
     }
     .framework-container {
-      gap: 5em;
+      padding-left: 5em;
+      gap: 6em;
     }
     .scroll-container {
-      margin-bottom: 20em;
+      margin-bottom: 25em;
     }
   }
 </style>
