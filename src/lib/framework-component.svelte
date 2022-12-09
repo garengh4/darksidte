@@ -14,28 +14,29 @@
   #container {
     display: flex;
     align-items: flex-end;
-    
   }
   .logo {
     text-align: center;
-    line-height: 3em;
-    font-size: xx-small;
+    line-height: 1.5em;
+  }
+  .logo > p {
+    font-size: 6pt;
   }
   .logo > img {
-    width:6em;
+    width:3em;
   }
 
   @media screen and (min-width: 450px) and (max-width: 768px) {
     .logo > img {
-      width:8em;
+      width:6em;
     }
   }
   @media screen and (min-width: 769px) and (max-width: 1680px) {
     .logo > p {
-      font-size:x-large;
+      font-size:18pt;
     }
     .logo > img {
-      width:14em;
+      width:12em;
     }
   }
   @media screen and (min-width: 1681px) {
@@ -44,6 +45,7 @@
     }
     .logo > img {
       width:16em;
+      height: 16em;
     }
   }
 

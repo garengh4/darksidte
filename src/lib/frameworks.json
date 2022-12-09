@@ -10,6 +10,16 @@
     "frameworkLogo": "/logos/java.svg"
   },
   {
+    "project":"Darksidte",
+    "frameworkTitle":"Sveltekit",
+    "frameworkLogo": "/logos/svelte.svg"
+  },
+  {
+    "project":"Backyard wedding app",
+    "frameworkTitle":"MySQL",
+    "frameworkLogo": "/logos/mysql.svg"
+  },
+  {
     "project":"Backyard wedding app",
     "frameworkTitle":"Springboot",
     "frameworkLogo": "/logos/springio.svg"
@@ -33,10 +43,5 @@
     "project":"theNodeJsApp",
     "frameworkTitle":"NodeJs",
     "frameworkLogo": "/logos/nodejs.svg"
-  },
-  {
-    "project":"Darksidte",
-    "frameworkTitle":"Sveltekit",
-    "frameworkLogo": "/logos/svelte.svg"
   }
 ]

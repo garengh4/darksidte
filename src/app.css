@@ -16,9 +16,6 @@
 html,
 body {
   color: var(--p-fontcolor);
-  /* font-family: 'Helvetica', 'Arial', sans-serif; */
-  font-family: 'Ubuntu Condensed';
-  /* font-weight: normal; */
-  /* font-size: 9.3em; */
-  /* font-size: medium; */
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 8.5pt;
 }

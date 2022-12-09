@@ -33,11 +33,13 @@
 
 <style>
   .container {
-    width: 20em;
+    width: 30em;
     padding-bottom: 10em;
   }
   .display > img {
-    width: 20em;
+    width: 30em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
   }
   .console > .data > h3 {
     font-size: 15.5pt;
@@ -45,8 +47,8 @@
     font-weight: bold;
   }
   .console > .data > p {
-    line-height: 1.5em;
-    font-size: 11pt;
+    /* line-height: 1.5em; */
+    /* font-size: 11pt; */
     margin-bottom: 2em;
   }
   .console > .links {
@@ -80,10 +82,10 @@
 
   @media screen and (min-width: 450px) and (max-width: 768px) {
     .container {
-      width: 30em;
+      width: 45em;
     }
     .display > img {
-      width: 30em;
+      width: 45em;
     }
     .console > .data > p {
       font-size:  11pt;

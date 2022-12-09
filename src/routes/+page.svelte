@@ -1,48 +1,42 @@
 <script>
-  // Imports:
-
   import { config } from "$lib/config";
   import FrameworkComponent from "$lib/framework-component.svelte";
   import ProjectComponent from "$lib/project-component.svelte";
-  // Initializations & Exports:
-  // :3
 </script>
 
-`<!-- #################################################################################################### -->
-
-<!-- SvelteKit Dynamic Header -->
+<!-- Dynamic Header -->
 <svelte:head>
-  <title>Home</title>
-  <meta name="description" content="Home Page" />
+  <title>Garen's portfolio</title>
+  <meta name="description" content="Garen's Portfolio" />
 </svelte:head>
 
 <!-- Page Content -->
 <section>
   <div class="grid-template-columns">
-    <!-- ================================================================================================== -->
     <div id="box-hi">
       <span>Hi. I'm Garen.</span>
       <br />
       <span>A Developer.</span>
     </div>
+
     <div id="description">
       <span>
-        I'm also a frontend web-designer and a student of new frameworks. I
-        think it's really cool to think of different ways to solve a singular
-        problem. :)
+        I'm also a frontend web-designer and a student of new frameworks.
       </span>
+      <br><br>
+      <span>
+        I'd like to say I'm a highly self-motivated fullstack developer figuring
+        out the quirks of frontend. Who's to say?
+      </span>
+
       <br />
     </div>
     <div id="fullbody">
       <img src="/images/portrait2.png" alt="Full-body-portrait" />
     </div>
   </div>
-  <!-- ======================================================================================= -->
 
-  <div id="heading">
-    <h2>Frameworks I love and work with...</h2>
-  </div>
-
+  <h2>Frameworks I love and work with...</h2>
   <div class="scroll-container">
     <div class="gridscroll">
       <div class="framework-container">
@@ -65,7 +59,7 @@
   /* iphone 12 pro */
   .grid-template-columns {
     display: grid;
-    grid-template-columns: 10em auto; /* @media */
+    grid-template-columns: 16em auto; /* @media */
     grid-template-rows: auto auto;
     grid-template-areas:
       "a b b"
@@ -74,20 +68,19 @@
       "d d d";
     justify-content: center;
     gap: 1em;
-    margin-bottom: 5em;
+    margin-top: 5em;
+    margin-bottom: 10em;
   }
   #box-hi {
     grid-area: a;
-    font-size: 20.5pt;
+    margin-top: 3em;
+    margin-bottom: -2.5em;
+    font-size: 20pt;
     font-weight: bold;
-    margin-top: 2em;
-    margin-bottom: -2em;
   }
   #description {
     grid-area: c;
-    font-size: small;
-    line-height: 1.5em;
-    margin-bottom: -2em;
+    margin-bottom: -5em;
   }
   #fullbody {
     grid-area: b;
@@ -95,13 +88,11 @@
   #fullbody > img {
     width: 150px;
   }
-  #heading {
+  h2 {
     grid-area: d;
-    font-size: 11pt;
-    margin-left: 1.5em;
-    margin-bottom: 2em;
+    font-size: 15pt;
+    margin-left: 0.5em;
   }
-
   .framework-container {
     display: flex;
     flex-wrap: nowrap;
@@ -132,11 +123,14 @@
   /* ipad */
   @media screen and (min-width: 450px) and (max-width: 768px) {
     .grid-template-columns {
-      grid-template-columns: 20em auto; /* @media */
+      grid-template-columns: 30em auto; 
     }
     #box-hi {
-      font-size: 28pt;
       margin-bottom: -2em;
+      font-size: xx-large;
+    }
+    h2{
+      font-size: x-large;
     }
     #description {
       font-size: medium;
@@ -144,35 +138,32 @@
     #fullbody > img {
       width: 200px;
     }
-    #heading {
-      font-size: large;
-      padding-left: 3em;
+    .framework-container{
+      margin-bottom: 2em;
     }
   }
   /* MacAirBook */
   @media screen and (min-width: 769px) and (max-width: 1680px) {
     .grid-template-columns {
-      grid-template-columns: 40em auto; /* @media */
-      margin-top:5em;
-      margin-bottom: em;
+      grid-template-columns: 60em auto; /* @media */
     }
     #box-hi {
-      font-size:54pt;
+      font-size: 54pt;
+    }
+    h2{
+      font-size: 35pt;
+      /* margin-bottom: 0.5em; */
     }
     #description {
-      font-size: xx-large;
+      font-size: 26pt;
     }
     #fullbody > img {
-      width: 400px;
+      width: 450px;
     }
-    #heading {
-      font-size: 28pt;
-      padding: 5em 2em 0em;
-    }
-    .framework-container{
+    .framework-container {
       gap: 5em;
     }
-    .scroll-container{
+    .scroll-container {
       margin-bottom: 25em;
     }
   }
@@ -180,11 +171,11 @@
   @media screen and (min-width: 1681px) {
     .grid-template-columns {
       grid-template-columns: 55em auto; /* @media */
-      margin-top:10em;
+      margin-top: 10em;
       margin-bottom: 15em;
     }
     #box-hi {
-      font-size:60pt;
+      /* font-size: 60pt; */
     }
     #description {
       font-size: xx-large;
@@ -192,14 +183,10 @@
     #fullbody > img {
       width: 400px;
     }
-    #heading {
-      font-size: 32pt;
-      padding: 5em 2em 0em;
-    }
-    .framework-container{
+    .framework-container {
       gap: 5em;
     }
-    .scroll-container{
+    .scroll-container {
       margin-bottom: 20em;
     }
   }
