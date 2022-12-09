@@ -44,8 +44,7 @@
       font-size:x-large;
     }
     .logo > img {
-      width:16em;
-      height: 16em;
+      width:12em;
     }
   }
 
