@@ -28,7 +28,7 @@
     text-align: center;
   }
   .real-footer > h1 {
-    font-size: 20pt;
+    font-size: 10pt;
   }
   .real-footer > p > a {
     color: #eaeeb3;
@@ -38,10 +38,10 @@
   }
   @media screen and (min-width: 450px) and (max-width: 768px) {
     .real-footer > h1 {
-      font-size: 45pt;
+      font-size: 30pt;
     }
     .real-footer > p {
-      font-size: 20pt;
+      font-size: 10pt;
       letter-spacing: -1px;
     }
   }
