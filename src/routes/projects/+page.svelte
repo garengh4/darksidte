@@ -1,7 +1,7 @@
 <script>
   // Imports:
 	import { config } from '$lib/config';
-  import ProjectComponent from '$lib/project-component.svelte'
+  import ProjectComponent from '$lib/custom-components/project-component.svelte'
   // Initializations & Exports:
 
 </script>

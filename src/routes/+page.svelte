@@ -1,7 +1,8 @@
 <script>
   import { config } from "$lib/config";
-  import FrameworkComponent from "$lib/framework-component.svelte";
-  import ProjectComponent from "$lib/project-component.svelte";
+  import FrameworkComponent from "$lib/custom-components/framework-component.svelte";
+  import ProjectComponent from "$lib/custom-components/project-component.svelte";
+  import ResumeComponent from "$lib/custom-components/resume-component.svelte";
 </script>
 
 <!-- Dynamic Header -->
@@ -36,6 +37,14 @@
     </div>
   </div>
 
+  <h2>A little bit about me...</h2>
+  <div class="resume-component">
+    {#each config.resume as resume}
+      <ResumeComponent {resume} />
+    {/each}
+  </div>
+
+
   <h2>Frameworks I love and work with...</h2>
   <div class="scroll-container">
     <div class="gridscroll">
@@ -56,6 +65,13 @@
 
 <!-- #################################################################################################### -->
 <style>
+  .resume-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+  }
+  /* ================================================================= */
   /* iphone 12 pro */
   .grid-template-columns {
     display: grid;
