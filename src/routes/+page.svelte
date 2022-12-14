@@ -58,6 +58,7 @@
 
 <!-- #################################################################################################### -->
 <style>
+  /* iphone 12 pro */
   .content {
     display: grid;
     grid-template-areas: "left left right right right";
@@ -96,9 +97,7 @@
     text-decoration: underline;
     margin-bottom: 1em;
     margin-top: 3em;
-
   }
-  /* ================================================================= */
   /* ================================================================= */
   .resume-component {
     display: flex;
@@ -107,139 +106,33 @@
     gap: 3em;
   }
   /* ================================================================= */
-  /* iphone 12 pro */
-  .grid-template-columns {
-    display: grid;
-    grid-template-columns: 16em auto; /* @media */
-    grid-template-rows: auto auto;
-    grid-template-areas:
-      "a b b"
-      "c b b"
-      "c b b"
-      "d d d";
-    justify-content: center;
-    gap: 1em;
-    margin-top: 5em;
-    margin-bottom: 10em;
-  }
-  #box-hi {
-    grid-area: a;
-    margin-top: 3em;
-    margin-bottom: -2.5em;
-    font-size: 20pt;
-    font-weight: bold;
-  }
-  #description {
-    grid-area: c;
-    margin-bottom: -5em;
-  }
-  #fullbody {
-    grid-area: b;
-  }
-  #fullbody > img {
-    width: 150px;
-  }
-
   .framework-container {
     display: flex;
-    flex-wrap: nowrap;
     overflow-x: auto;
     gap: 2em;
     justify-content: center;
   }
+  .scroll-container {
+    overflow: auto;
+    margin-bottom: 10em;
+  }
+  /* ================================================================= */
   .project-component {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
-  .scroll-container {
-    overflow: auto;
-    white-space: nowrap;
-    padding: 1em 2em;
-    background: transparent;
-    height: 100%;
-    border-radius: 15px;
-    margin-bottom: 10em;
-  }
-
-  .gridscroll {
-    display: inline-block;
-  }
-
+  /* ================================================================= */
   /* ipad */
   @media screen and (min-width: 450px) and (max-width: 768px) {
-    .grid-template-columns {
-      grid-template-columns: 30em auto;
-    }
-    #box-hi {
-      margin-bottom: -2em;
-      font-size: xx-large;
-    }
-    h2 {
-      font-size: x-large;
-    }
-    #description {
-      font-size: medium;
-    }
-    #fullbody > img {
-      width: 200px;
-    }
-    .framework-container {
-      margin-bottom: 2em;
-    }
+    
   }
   /* MacAirBook */
   @media screen and (min-width: 769px) and (max-width: 1680px) {
-    .grid-template-columns {
-      grid-template-columns: 65em auto; /* @media */
-    }
-    #box-hi {
-      font-size: 54pt;
-    }
-    h2 {
-      font-size: 35pt;
-      margin-left: 2em;
-      margin-bottom: 0.5em;
-    }
-    #description {
-      font-size: 26pt;
-    }
-    #fullbody > img {
-      width: 450px;
-    }
-    .framework-container {
-      gap: 6em;
-    }
-    .scroll-container {
-      margin-bottom: 25em;
-    }
+    
   }
   /* desktop */
   @media screen and (min-width: 1681px) {
-    .grid-template-columns {
-      grid-template-columns: 80em auto; /* @media */
-    }
-    #box-hi {
-      font-size: 54pt;
-    }
-    h2 {
-      font-size: 35pt;
-      margin-left: 2em;
-      margin-bottom: 0.5em;
-    }
-    #description {
-      font-size: 26pt;
-    }
-    #fullbody > img {
-      width: 450px;
-    }
-    .framework-container {
-      padding-left: 5em;
-      gap: 6em;
-    }
-    .scroll-container {
-      margin-bottom: 25em;
-    }
+    
   }
 </style>

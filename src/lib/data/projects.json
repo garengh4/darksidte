@@ -1,6 +1,6 @@
 [
   {
-    "project": "The backyard wedding project",
+    "project": "The backyard-wedding project",
     "description": "This angular.io bad boy is basically a 3-file system working together in sync: the css, the ts, and the spec.ts. It's well matured library offers many defaults, a standard that gave me a solid foundation to my study in its possiblities.",
     "logo": "/logos/weddingapp.svg",
     "background":"/images/backyard-4.jpg",
@@ -8,13 +8,13 @@
     "repo": "https://github.com/garengh4/angular-wedding-2/tree/main"
   },
   {
-    "project": "Experimenting NodeJs with express and mongoDB",
+    "project": "NodeJs api-interact",
     "description": "Not much to say here... the entire full-stack experience all in one go. On this app specifically, we will see an api call to access live weather data brought from the cloud to json to the html user.",
     "link": "https://nodejs-thenodejsapp.azurewebsites.net/",
     "repo": "https://github.com/garengh4/nodejs-theNodeJsApp/tree/main"
   },
   {
-    "project": "Darksidte",
+    "project": "Darksidte portfolio-app",
     "description": "Where Angular has 3-files-in-sync, this template of mine offers them all in one. I've never found an easier way to build a severless web-app from scratch!",
     "background": "/images/hd-2-b.jpg",
     "link":"www.google.com",

@@ -5,6 +5,7 @@
 
 <section>
   <div class="container">
+
     <div class="display">
       {#if project.background}
         <img src={project.background} alt={project.project} />
@@ -15,12 +16,10 @@
         />
       {/if}
     </div>
-    <div class="console">
-      <div class="data">
-        <h3>{project.project}</h3>
-        <p>{project.description}</p>
-      </div>
 
+    <div class="console">
+      <h3>{project.project}</h3>
+      <p>{project.description}</p>
       <div class="links">
         <a href={project.repo}>Source code</a>
         {#if project.link}
@@ -28,29 +27,29 @@
         {/if}
       </div>
     </div>
+
   </div>
 </section>
 
 <style>
   .container {
     width: 30em;
-    padding-bottom: 10em;
+    margin-bottom: 5em;
   }
   .display > img {
     width: 30em;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
   }
-  .console > .data > h3 {
-    font-size: 15.5pt;
+  .console > h3 {
+    font-size: 12pt;
     margin-bottom: 0.5em;
-    font-weight: bold;
+    text-decoration: underline;
   }
-  .console > .data > p {
-    /* line-height: 1.5em; */
-    /* font-size: 11pt; */
-    margin-bottom: 2em;
+  .console > p {
+    margin-bottom: 1em;
   }
+
   .console > .links {
     text-align: center;
   }
@@ -58,10 +57,8 @@
   .console > .links > a {
     color: white;
     padding: 10px 30px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     border-radius: 4px;
     transition-duration: 0.4s;
     opacity: 0.6;
@@ -76,7 +73,6 @@
   .console {
     background: rgba(53, 53, 53, 0.47);
     backdrop-filter: blur(62px);
-    color: white;
     padding: 1.5em;
   }
 
@@ -87,9 +83,6 @@
     .display > img {
       width: 45em;
     }
-    .console > .data > p {
-      font-size:  11pt;
-    }
   }
   @media screen and (min-width: 769px) and (max-width: 1680px) {
     .container {
@@ -98,12 +91,7 @@
     .display > img {
       width: 70em;
     }
-    .console > .data > h3 {
-      font-size: 28pt;
-    }
-    .console > .data > p {
-      font-size:  18pt;
-    }
+
     .console > .links > a {
       font-size: 20pt;
     }
@@ -114,15 +102,6 @@
     }
     .display > img {
       width: 80em;
-    }
-    .console > .data {
-      padding: 2em;
-    }
-    .console > .data > h3 {
-      font-size: 34pt;
-    }
-    .console > .data > p {
-      font-size:  22pt;
     }
     .console > .links > a {
       font-size: 32pt;

@@ -1,12 +1,12 @@
 [
   {
     "project":"Backyard wedding app",
-    "frameworkTitle":"Angular",
+    "frameworkTitle":"Angular12",
     "frameworkLogo": "/logos/angular.svg"
   },
   {
     "project":"Backyard wedding app",
-    "frameworkTitle":"Java",
+    "frameworkTitle":"Jdk11",
     "frameworkLogo": "/logos/java.svg"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "project":"Backyard wedding app",
-    "frameworkTitle":"Springboot",
+    "frameworkTitle":"Spring",
     "frameworkLogo": "/logos/springio.svg"
   },
   {
