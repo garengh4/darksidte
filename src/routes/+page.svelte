@@ -15,53 +15,30 @@
 <section>
   <div class="content">
     <div class="leftconsole">
-      <img src="/images/portrait4.jpg" alt="portrait">
+      <img src="/images/portrait4.jpg" alt="portrait" />
     </div>
     <div class="rightconsole">
       <h1>Hi, I'm Garen.</h1>
       <h3>Welcome to my portfolio app.</h3>
-      <hr>
+      <hr />
       <p>
-        I'm a java-angular developer whom has taken an interest in frameworks and cybersecurity. 
-        <br><br>
-        As you scroll down you'll get to see the technologies I work with, my past experiences, and the projects I'm currently working. I hope you enjoy them!
+        I'm a java-angular developer whom has taken an interest in frameworks
+        and cybersecurity.
+        <br /><br />
+        As you scroll down you'll get to see the technologies I work with, my past
+        experiences, and the projects I'm currently working. I hope you enjoy them!
       </p>
     </div>
   </div>
 
-  <!-- <div class="grid-template-columns">
-    <div id="box-hi">
-      <span>Hi. I'm Garen.</span>
-      <br />
-      <span>A Developer.</span>
-    </div>
-
-    <div id="description">
-      <span>
-        I'm also a frontend web-designer and a student of new frameworks.
-      </span>
-      <br><br>
-      <span>
-        I'd like to say I'm a highly self-motivated fullstack developer figuring
-        out the quirks of frontend. Who's to say?
-      </span>
-
-      <br />
-    </div>
-    <div id="fullbody">
-      <img src="/images/portrait2.png" alt="Full-body-portrait" />
-    </div>
-  </div> -->
-
   <h2>My Past experiences</h2>
-  <hr style="width: 40%;">
   <div class="resume-component">
     {#each config.resume as resume}
       <ResumeComponent {resume} />
     {/each}
   </div>
 
-  <h2>Frameworks I love and work with...</h2>
+  <h2>Frameworks I work with</h2>
   <div class="scroll-container">
     <div class="gridscroll">
       <div class="framework-container">
@@ -81,15 +58,13 @@
 
 <!-- #################################################################################################### -->
 <style>
-
-
   .content {
     display: grid;
     grid-template-areas: "left left right right right";
     gap: 1em;
     padding: 3em;
+    margin-bottom: 3em;
   }
-
   .rightconsole {
     grid-area: right;
   }
@@ -99,21 +74,28 @@
   img {
     width: 12em;
     border-radius: 2px;
+    filter: blur(0.25px);
   }
-  hr{
-    height:1px;
-    border-width:0;
-    color:gray;
-    background-color:gray;
+  hr {
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
     margin-bottom: 0.5em;
   }
-  h1{
+  h1 {
     font-size: 17pt;
     margin-top: 0.25em;
     margin-bottom: 0.25em;
   }
-  h3{
+  h3 {
     font-size: 10pt;
+  }
+  h2 {
+    margin-left: 1em;
+    text-decoration: underline;
+    margin-bottom: 1em;
+    margin-top: 3em;
 
   }
   /* ================================================================= */
@@ -157,11 +139,7 @@
   #fullbody > img {
     width: 150px;
   }
-  /* h2 {
-    grid-area: d;
-    font-size: 15pt;
-    margin-left: 0.5em;
-  } */
+
   .framework-container {
     display: flex;
     flex-wrap: nowrap;
