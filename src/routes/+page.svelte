@@ -64,7 +64,8 @@
     grid-template-areas: "left left right right right";
     gap: 1em;
     padding: 3em;
-    margin-bottom: 3em;
+    margin-bottom: 8em;
+    margin-top: 3em;
   }
   .rightconsole {
     grid-area: right;
@@ -96,21 +97,23 @@
     margin-left: 1em;
     text-decoration: underline;
     margin-bottom: 1em;
-    margin-top: 3em;
+    margin-top: 5em;
   }
   /* ================================================================= */
   .resume-component {
     display: flex;
+    gap: 3em;
     flex-direction: column;
     align-items: center;
-    gap: 3em;
   }
   /* ================================================================= */
   .framework-container {
     display: flex;
+    gap: 3em;
     overflow-x: auto;
-    gap: 2em;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 2em;
+
   }
   .scroll-container {
     overflow: auto;

@@ -5,7 +5,7 @@
 
 <section id="container">
   <div class="logo">
-    <img src={framework.frameworkLogo} target="__blank" alt={framework.project} />
+    <img src={framework.frameworkLogo} alt={framework.project} />
     <p>{framework.frameworkTitle}</p>
   </div>
 </section>
@@ -14,6 +14,7 @@
   #container {
     display: flex;
     align-items: flex-end;
+
   }
   .logo {
     text-align: center;
