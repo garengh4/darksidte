@@ -1,5 +1,5 @@
 :root {
-  --p-fontcolor: #ccc;
+  --p-fontcolor: #E6E6FA;
 }
 
 * {
@@ -16,6 +16,9 @@
 html,
 body {
   color: var(--p-fontcolor);
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  font-size: 8.5pt;
+  /* font-family: 'Helvetica', 'Arial', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2em;
+  font-size: 7pt;
+  
 }

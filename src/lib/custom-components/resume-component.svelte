@@ -6,7 +6,7 @@
 <section>
   <div class="container">
     <div class="left-console">
-      <h3>Job Title: {resume.title}</h3>
+      <h3>{resume.title}</h3>
       <span>Company: {resume.company}</span>
     </div>
     <div class="right-console">

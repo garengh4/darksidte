@@ -24,9 +24,10 @@
 
 	main {
 		padding: 1em;
-    background:#0b0b14;
+    background: #121212;
        /* max-height: 120vh;
     min-height: 120vh; */
+    
 	}
 
 </style>
