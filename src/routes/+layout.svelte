@@ -26,6 +26,8 @@
 		padding: 1em;
     /* background: #121212; */
     background-image: url("/images/valorant_ascent.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
        /* max-height: 120vh;
     min-height: 120vh; */
     

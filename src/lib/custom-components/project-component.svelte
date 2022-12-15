@@ -54,6 +54,7 @@
   }
   .console > p {
     margin-bottom: 1em;
+    font-size: 8pt;
   }
 
   .console > .links {
@@ -79,18 +80,30 @@
 
   @media screen and (min-width: 450px) and (max-width: 768px) {
     .container {
-      width: 45em;
+      width: 50em;
     }
     .display > img {
-      width: 45em;
+      width: 50em;
     }
   }
   @media screen and (min-width: 769px) and (max-width: 1680px) {
     .container {
-      width: 70em;
+      width: 100em;
     }
     .display > img {
-      width: 70em;
+      width: 100em;
+    }
+    .console {
+      padding: 5em;
+
+    }
+    .console > h3 {
+      font-size: 32pt;
+      line-height: 0.5em;
+    }
+    .console > p {
+      font-size: 20pt;
+      line-height: 1em;
     }
 
     .console > .links > a {
@@ -99,13 +112,26 @@
   }
   @media screen and (min-width: 1681px) {
     .container {
-      width: 80em;
+      width: 100em;
     }
     .display > img {
-      width: 80em;
+      width: 100em;
     }
-    .console > .links > a {
+    .console {
+      padding: 5em;
+
+    }
+    .console > h3 {
       font-size: 32pt;
+      line-height: 0.5em;
+    }
+    .console > p {
+      font-size: 22pt;
+      line-height: 1em;
+    }
+
+    .console > .links > a {
+      font-size: 20pt;
     }
   }
 </style>

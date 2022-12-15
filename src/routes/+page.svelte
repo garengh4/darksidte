@@ -108,10 +108,9 @@
   .framework-container {
     display: flex;
     gap: 3em;
-    overflow-x: auto;
-    justify-content: left;
-    margin-left: 2em;
-
+    /* overflow-x: auto; */
+    justify-content: center;
+    margin-left: 20em;
   }
   .scroll-container {
     overflow: auto;
@@ -139,7 +138,7 @@
       font-size: 16pt;
       line-height: 1em;
     }
-    p{
+    p {
       font-size: 12pt;
       line-height: 1em;
     }
@@ -150,10 +149,96 @@
   }
   /* MacAirBook */
   @media screen and (min-width: 769px) and (max-width: 1680px) {
-    
+    .content {
+      padding: 25em;
+      gap:2em;
+    }
+    img {
+      width: 40em;
+      border-radius: 8px;
+    }
+    h1 {
+      font-size: 48pt;
+      line-height: 0.5em;
+    }
+    hr {
+      height: 4px;
+      border-width: 50;
+      margin-bottom: 1.5em;
+
+    }
+    h3 {
+      font-size: 28pt;
+      line-height: 1em;
+    }
+    p {
+      font-size: 22pt;
+      line-height: 1em;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 32pt;
+      text-align:  left;
+      margin-left: 3em;
+    }
+    .resume-component{
+      margin-bottom: 25em;
+      margin-top: 10em;
+    }
+    .framework-container{
+      gap: 8em;
+      margin-left: 10em;
+
+    }
+    .scroll-container {
+      padding: 2em;
+    }
   }
   /* desktop */
   @media screen and (min-width: 1681px) {
-    
+    .content {
+      padding: 30em;
+      gap:4em;
+    }
+    img {
+      width: 40em;
+      border-radius: 10px;
+    }
+    h1 {
+      font-size: 48pt;
+      line-height: 0.5em;
+    }
+    hr {
+      height: 4px;
+      border-width: 50;
+      margin-bottom: 1.5em;
+
+    }
+    h3 {
+      font-size: 28pt;
+      line-height: 1em;
+    }
+    p {
+      font-size: 22pt;
+      line-height: 1em;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 32pt;
+      text-align:  left;
+      margin-left: 3em;
+    }
+    .resume-component{
+      margin-bottom: 25em;
+      margin-top: 10em;
+    }
+    .framework-container{
+      gap: 8em;
+      margin-left: 10em;
+
+    }
+    .scroll-container {
+      padding: 2em;
+    }
   }
 </style>

@@ -40,7 +40,7 @@
   /* ipad */
   @media screen and (min-width: 450px) and (max-width: 768px) {
     .container {
-      width: 50em;
+      width: 70em;
     }
     h1 {
       font-size: 12pt;
@@ -49,8 +49,41 @@
     span {
       font-size: 10pt;
     }
-    p{
+    p {
       font-size: 9pt;
+    }
+  }
+  /* MacAirBook */
+  @media screen and (min-width: 769px) and (max-width: 1680px) {
+    .container {
+      width: 100em;
+    }
+    h1 {
+      font-size: 24pt;
+      line-height: 1.5em;
+    }
+    span {
+      font-size: 16pt;
+    }
+    p {
+      font-size: 14pt;
+      line-height: 1em;
+    }
+  }
+  @media screen and (min-width: 1681px) {
+    .container {
+      width: 120em;
+    }
+    h1 {
+      font-size: 26pt;
+      line-height: 1.5em;
+    }
+    span {
+      font-size: 20pt;
+    }
+    p {
+      font-size: 18pt;
+      line-height: 1em;
     }
   }
 </style>

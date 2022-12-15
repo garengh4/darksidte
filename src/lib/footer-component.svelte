@@ -23,7 +23,7 @@
 <!-- #################################################################################################### -->
 <style>
   .real-footer {
-    background: #111111;
+    background: #121212;
     padding: 10em;
     text-align: center;
   }
@@ -38,29 +38,29 @@
   }
   @media screen and (min-width: 450px) and (max-width: 768px) {
     .real-footer > h1 {
-      font-size: 30pt;
+      font-size: 18pt;
+      line-height:  1em;
     }
     .real-footer > p {
       font-size: 10pt;
-      letter-spacing: -1px;
     }
   }
   @media screen and (min-width: 769px) and (max-width: 1680px) {
     .real-footer > h1 {
-      font-size: 30pt;
+      font-size: 28pt;
+      line-height:  1em;
     }
     .real-footer > p {
-      font-size: 12pt;
-      letter-spacing: -1px;
+      font-size: 14pt;
     }
   }
   @media screen and (min-width: 1681px) {
     .real-footer > h1 {
-      font-size: 36pt;
+      font-size: 32pt;
+      line-height:  1em;
     }
     .real-footer > p {
-      font-size: 13pt;
-      letter-spacing: -1px;
+      font-size: 14pt;
     }
   }
 </style>
