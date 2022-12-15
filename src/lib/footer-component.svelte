@@ -24,7 +24,7 @@
 <style>
   .real-footer {
     background: #121212;
-    padding: 10em;
+    padding: 30em;
     text-align: center;
   }
   .real-footer > h1 {
