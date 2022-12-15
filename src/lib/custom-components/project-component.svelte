@@ -41,6 +41,12 @@
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
   }
+  .console {
+    background: rgba(53, 53, 53, 0.47);
+    backdrop-filter: blur(62px);
+    padding: 1.5em;
+  }
+
   .console > h3 {
     font-size: 12pt;
     margin-bottom: 0.5em;
@@ -70,11 +76,6 @@
     opacity: 1;
   }
 
-  .console {
-    background: rgba(53, 53, 53, 0.47);
-    backdrop-filter: blur(62px);
-    padding: 1.5em;
-  }
 
   @media screen and (min-width: 450px) and (max-width: 768px) {
     .container {

@@ -38,7 +38,7 @@
     {/each}
   </div>
 
-  <h2>Frameworks I work with</h2>
+  <h2>Frameworks & technologies I work with...</h2>
   <div class="scroll-container">
     <div class="gridscroll">
       <div class="framework-container">
@@ -64,7 +64,6 @@
     grid-template-areas: "left left right right right";
     gap: 1em;
     padding: 3em;
-    margin-bottom: 8em;
     margin-top: 3em;
   }
   .rightconsole {
@@ -75,7 +74,7 @@
   }
   img {
     width: 12em;
-    border-radius: 2px;
+    border-radius: 4px;
     filter: blur(0.25px);
   }
   hr {
@@ -94,10 +93,8 @@
     font-size: 10pt;
   }
   h2 {
-    margin-left: 1em;
     text-decoration: underline;
-    margin-bottom: 1em;
-    margin-top: 5em;
+    margin: 1em;
   }
   /* ================================================================= */
   .resume-component {
@@ -105,6 +102,7 @@
     gap: 3em;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10em;
   }
   /* ================================================================= */
   .framework-container {
@@ -128,7 +126,27 @@
   /* ================================================================= */
   /* ipad */
   @media screen and (min-width: 450px) and (max-width: 768px) {
-    
+    .content {
+      padding: 10em;
+    }
+    img {
+      width: 20em;
+    }
+    h1 {
+      font-size: 24pt;
+    }
+    h3 {
+      font-size: 16pt;
+      line-height: 1em;
+    }
+    p{
+      font-size: 12pt;
+      line-height: 1em;
+    }
+    h2 {
+      font-size: 16pt;
+      text-align: center;
+    }
   }
   /* MacAirBook */
   @media screen and (min-width: 769px) and (max-width: 1680px) {

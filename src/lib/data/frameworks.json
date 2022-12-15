@@ -9,11 +9,7 @@
     "frameworkTitle":"Jdk11",
     "frameworkLogo": "/logos/java.svg"
   },
-  {
-    "project":"Darksidte",
-    "frameworkTitle":"Sveltekit",
-    "frameworkLogo": "/logos/svelte.svg"
-  },
+
   {
     "project":"Backyard wedding app",
     "frameworkTitle":"MySQL",
@@ -43,5 +39,10 @@
     "project":"theNodeJsApp",
     "frameworkTitle":"NodeJs",
     "frameworkLogo": "/logos/nodejs.svg"
+  },
+  {
+    "project":"Darksidte",
+    "frameworkTitle":"Sveltekit",
+    "frameworkLogo": "/logos/svelte.svg"
   }
 ]
