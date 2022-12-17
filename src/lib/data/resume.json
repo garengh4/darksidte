@@ -3,18 +3,18 @@
     "title":"Frontend consultant",
     "company":"Visa Inc.",
     "date":"Sept 2022",
-    "description":"Collaborate with backend to find best solution that easily integrate with existing api framework for client web portal. Used anguar 12 Javascript/jQuery framework to transition json data in components and services. Performed peer reviews with other UI-developers."
+    "description":"Collaborated with backend to find best solution that easily integrate with existing api framework for client web portal. Used Javascript/jQuery with html, css/scss to make and integrate advanced ui features. Deseigned, developed and delivered necessary code to transition architecture from monolithic to microfrontend. Performed peer reviews with other UI-developers."
   },
   {
     "title":"Java consultant",
     "company":"Nike",
     "date":"May 2022",
-    "description":"Compile and analyze data, troubleshoot problems. Build modern spring applications with Spring boot, Spring cloud and Spring. hands-on expeirence with azure cloud technologies."
+    "description":"Worked with java 8 intellij, postman, workbench, git/svn source control, and maven/gradle build tools. Worked on modern spring applications with spring boot, spring cloud and spring. Took charge of project code on azure cloud service."
   },
   {
     "title":"Associate",
     "company":"Infosys Limited",
-    "date":"June 2021",
-    "description":"Certified in fullstack angular-java, NodeJs, and React. Certified in Azure cloud services, security management."
+    "date":"~",
+    "description":"Certified in java-ee, angular 12, react, and nodeJs and express. Certified in azure cloud services, security management, and best practices."
   }
 ]

@@ -75,7 +75,7 @@
   img {
     width: 12em;
     border-radius: 4px;
-    filter: blur(0.25px);
+    filter: blur(0.5px);
   }
   hr {
     height: 1px;
@@ -150,7 +150,7 @@
   /* MacAirBook */
   @media screen and (min-width: 769px) and (max-width: 1680px) {
     .content {
-      padding: 25em;
+      padding: 20em;
       gap:2em;
     }
     img {
@@ -172,7 +172,7 @@
       line-height: 1em;
     }
     p {
-      font-size: 22pt;
+      font-size: 20pt;
       line-height: 1em;
       font-weight: bold;
     }

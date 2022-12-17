@@ -88,10 +88,10 @@
   }
   @media screen and (min-width: 769px) and (max-width: 1680px) {
     .container {
-      width: 100em;
+      width: 90em;
     }
     .display > img {
-      width: 100em;
+      width: 90em;
     }
     .console {
       padding: 5em;
@@ -102,7 +102,7 @@
       line-height: 0.5em;
     }
     .console > p {
-      font-size: 20pt;
+      font-size: 16pt;
       line-height: 1em;
     }
 

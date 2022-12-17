@@ -1,23 +1,23 @@
 [
   {
     "project": "The backyard-wedding project",
-    "description": "This angular.io bad boy is basically a 3-file system working together in sync: the css, the ts, and the spec.ts. It's well matured library offers many defaults, a standard that gave me a solid foundation to my study in its possiblities.",
     "logo": "/logos/weddingapp.svg",
     "background":"/images/backyard-4.jpg",
     "link": "https://angular-wedding-2.azurewebsites.net",
-    "repo": "https://github.com/garengh4/angular-wedding-2/tree/main"
+    "repo": "https://github.com/garengh4/angular-wedding-2/tree/main",
+    "description": "With java 11 and the spring framework to store, manage, and protect our mysql database locally, my colleague Brandon Viera and I used angular 12 to implement features and showcase our knowledge as best we could in a professional environment. The idea is simple: homeowners put up postings of backyards they would like to rent out, and clients make reservations and secure transactions through the availability and location filter. This project follows object-oriented principles to understand security implications in the backend and frontend monolithic architecture because its all it needs right now."
   },
   {
     "project": "NodeJs api-interact",
-    "description": "Not much to say here... the entire full-stack experience all in one go. On this app specifically, we will see an api call to access live weather data brought from the cloud to json to the html user.",
     "link": "https://nodejs-thenodejsapp.azurewebsites.net/",
-    "repo": "https://github.com/garengh4/nodejs-theNodeJsApp/tree/main"
+    "repo": "https://github.com/garengh4/nodejs-theNodeJsApp/tree/main",
+    "description": "Having worked with nodejs professionally and personally, I think this framework allows for some really cool/easy multithreading with express.js as the backend. This template project here showcases how one would consume external json data and render it to the client while following RESTful principles. Having worked with aws and azure cloud containes, I think this is definitely the de-facto standard framework."
   },
   {
     "project": "Darksidte portfolio-app",
-    "description": "Where Angular has 3-files-in-sync, this template of mine offers them all in one. I've never found an easier way to build a severless web-app from scratch!",
-    "background": "/images/hd-2-b.jpg",
     "link":"www.google.com",
-    "repo": "https://github.com/garengh4/svelte-darksidte/tree/main"
+    "repo": "https://github.com/garengh4/svelte-darksidte/tree/main",
+    "background": "/images/hd-2-b.jpg",
+    "description": "Extensive chastising from a colleague I highly respect and a personal interest to understand html,css, and javascript/typescript has led me to create this beautiful frankenstein monster I call my portfolio app. Sveltekit and its Svelte UI componente framework has definitely allowed me to write breathtakingly concise components. It allowed me to do away with npms and focus on html, css, and javascript/typescript. While the creation of this template felt painful and slow because I felt like I was recreating the wheel in css, I am now very proud of this creation and ever more appreciative of the npms and documentations that currently exist in the web."
   }
 ]
